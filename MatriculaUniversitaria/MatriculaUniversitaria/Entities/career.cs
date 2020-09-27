@@ -52,7 +52,7 @@ namespace MatriculaUniversitaria.Entities
 
         public string toString() 
         {
-            return "";
+            return this._id+"-"+this._name+"-"+this._totalCredit+"-"+this._state+"-"+this.startDate+"-"+this.endDate;
         }
     }
 }

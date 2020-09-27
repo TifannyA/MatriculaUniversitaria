@@ -7,10 +7,33 @@ using MatriculaUniversitaria.Entities;
 
 namespace MatriculaUniversitaria.Entities
 {
-    class User : Person
+    class User
     {
         private int _user;
-        private int _pass;
+        private string _code;
+        private int _idPerson;
+        private string _pass;
+
+        public string pass
+        {
+            get { return _pass; }
+            set { _pass = value; }
+        }
+
+
+        public int idPerson
+        {
+            get { return _idPerson; }
+            set { _idPerson = value; }
+        }
+
+
+        public string code
+        {
+            get { return _code; }
+            set { _code = value; }
+        }
+
 
         public int user
         {
@@ -18,19 +41,10 @@ namespace MatriculaUniversitaria.Entities
             set { _user = value; }
         }
 
-        public int pass
+        public string toString() 
         {
-            get { return _pass; }
-            set { _pass = value; }
+            return this._user + "-" +this._code+"-"+this._idPerson;
         }
 
-
-
-        public User (int id, int dni, string name, string last, char sex, DateTime bornDate, string academyLvl, DateTime admisionDate, string admisionUser, string nationality, string state,int user,string pass) 
-            : base (id, dni, name, last, sex, bornDate, academyLvl, admisionDate, admisionUser, nationality, state)
-        {
-            this.user = _user;
-            this.pass = _pass;
-        }
     }
 }

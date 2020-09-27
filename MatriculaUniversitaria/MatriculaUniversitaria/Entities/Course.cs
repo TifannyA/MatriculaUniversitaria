@@ -56,5 +56,10 @@ namespace MatriculaUniversitaria.Entities
             set { _id = value; }
         }
 
+        public string toString()
+        {
+            return this._id + "-" + this._name + "-" +this._credits+"-"+this._idCareer+"-"+this._price+"-"+this._totalCost;
+        }
+
     }
 }
