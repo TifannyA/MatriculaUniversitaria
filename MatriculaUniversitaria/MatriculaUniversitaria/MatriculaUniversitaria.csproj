@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BussinesObject\courseBo.cs" />
+    <Compile Include="BussinesObject\careerBo.cs" />
+    <Compile Include="BussinesObject\personBo.cs" />
+    <Compile Include="BussinesObject\userBo.cs" />
+    <Compile Include="DataAccessObject\careerDao.cs" />
+    <Compile Include="DataAccessObject\userDao.cs" />
+    <Compile Include="DataAccessObject\courseDao.cs" />
+    <Compile Include="DataAccessObject\personDao.cs" />
+    <Compile Include="DataAccess\userDa.cs" />
+    <Compile Include="DataAccess\personDa.cs" />
+    <Compile Include="DataAccess\courseDa.cs" />
+    <Compile Include="DataAccess\careerDa.cs" />
     <Compile Include="Entities\Career.cs" />
     <Compile Include="Entities\Course.cs" />
     <Compile Include="Entities\Person.cs" />
@@ -82,6 +94,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="GraphicUserInterface\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
