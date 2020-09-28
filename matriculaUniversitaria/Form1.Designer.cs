@@ -1,6 +1,6 @@
 ﻿namespace matriculaUniversitaria
 {
-    partial class Login
+    partial class Form1
     {
         /// <summary>
         /// Required designer variable.
@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtidUsuario = new System.Windows.Forms.TextBox();
+            this.txtPass = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnInicSec = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -47,19 +47,19 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "INICIAR SESIÓN";
             // 
-            // textBox1
+            // txtidUsuario
             // 
-            this.textBox1.Location = new System.Drawing.Point(111, 47);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(187, 20);
-            this.textBox1.TabIndex = 1;
+            this.txtidUsuario.Location = new System.Drawing.Point(111, 47);
+            this.txtidUsuario.Name = "txtidUsuario";
+            this.txtidUsuario.Size = new System.Drawing.Size(187, 20);
+            this.txtidUsuario.TabIndex = 1;
             // 
-            // textBox2
+            // txtPass
             // 
-            this.textBox2.Location = new System.Drawing.Point(111, 98);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(187, 20);
-            this.textBox2.TabIndex = 2;
+            this.txtPass.Location = new System.Drawing.Point(111, 98);
+            this.txtPass.Name = "txtPass";
+            this.txtPass.Size = new System.Drawing.Size(187, 20);
+            this.txtPass.TabIndex = 2;
             // 
             // label2
             // 
@@ -70,7 +70,7 @@
             this.label2.Size = new System.Drawing.Size(71, 16);
             this.label2.TabIndex = 5;
             this.label2.Text = "ID Usuario";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+
             // 
             // label3
             // 
@@ -82,16 +82,16 @@
             this.label3.TabIndex = 6;
             this.label3.Text = "Contraseña";
             // 
-            // button1
+            // btnInicSec
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(277, 170);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(118, 23);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Iniciar Sesión";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnInicSec.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInicSec.Location = new System.Drawing.Point(277, 170);
+            this.btnInicSec.Name = "btnInicSec";
+            this.btnInicSec.Size = new System.Drawing.Size(118, 23);
+            this.btnInicSec.TabIndex = 7;
+            this.btnInicSec.Text = "Iniciar Sesión";
+            this.btnInicSec.UseVisualStyleBackColor = true;
+            this.btnInicSec.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -109,11 +109,11 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(407, 205);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnInicSec);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtPass);
+            this.Controls.Add(this.txtidUsuario);
             this.Controls.Add(this.label1);
             this.Name = "Login";
             this.Text = "Login";
@@ -125,11 +125,11 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtidUsuario;
+        private System.Windows.Forms.TextBox txtPass;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnInicSec;
         private System.Windows.Forms.Button button2;
     }
 }

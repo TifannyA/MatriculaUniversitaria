@@ -10,28 +10,16 @@ using System.Windows.Forms;
 
 namespace matriculaUniversitaria
 {
-    public partial class Login : Form
+    public partial class RegistrarUser : Form
     {
-        public Login()
+        public RegistrarUser()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void RegistrarUser_Load(object sender, EventArgs e)
         {
 
         }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-            
-        
     }
 }

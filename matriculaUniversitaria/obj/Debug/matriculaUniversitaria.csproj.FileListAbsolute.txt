@@ -7,4 +7,5 @@ C:\Users\Usuario\source\repos\TifannyA\repositorio\MatriculaUniversitaria\matric
 C:\Users\Usuario\source\repos\TifannyA\repositorio\MatriculaUniversitaria\matriculaUniversitaria\obj\Debug\matriculaUniversitaria.csproj.CoreCompileInputs.cache
 C:\Users\Usuario\source\repos\TifannyA\repositorio\MatriculaUniversitaria\matriculaUniversitaria\obj\Debug\matriculaUniversitaria.exe
 C:\Users\Usuario\source\repos\TifannyA\repositorio\MatriculaUniversitaria\matriculaUniversitaria\obj\Debug\matriculaUniversitaria.pdb
-C:\Users\Usuario\source\repos\TifannyA\repositorio\MatriculaUniversitaria\matriculaUniversitaria\obj\Debug\matriculaUniversitaria.Login.resources
+C:\Users\Usuario\source\repos\TifannyA\repositorio\MatriculaUniversitaria\matriculaUniversitaria\obj\Debug\matriculaUniversitaria.RegistrarUser.resources
+C:\Users\Usuario\source\repos\TifannyA\repositorio\MatriculaUniversitaria\matriculaUniversitaria\obj\Debug\matriculaUniversitaria.Form1.resources
