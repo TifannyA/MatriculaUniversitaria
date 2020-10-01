@@ -27,8 +27,7 @@ namespace matriculaUniversitaria
         {
             if (txtPass.Text==datos)
             {
-                RegistrarUser fm = new RegistrarUser();
-                fm.Show();
+                
             }
             else
             {
@@ -36,6 +35,11 @@ namespace matriculaUniversitaria
             }
         }
 
-       
+        private void button2_Click(object sender, EventArgs e)
+        {
+            RegistrarUser fm = new RegistrarUser();
+            fm.Show();
+            
+        }
     }
 }

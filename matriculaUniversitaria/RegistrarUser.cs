@@ -12,6 +12,7 @@ namespace matriculaUniversitaria
 {
     public partial class RegistrarUser : Form
     {
+        Usuario u = new Usuario();
         public RegistrarUser()
         {
             InitializeComponent();
@@ -20,6 +21,22 @@ namespace matriculaUniversitaria
         private void RegistrarUser_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        public void registrarUsuario()
+        {
+            
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form1 f1 = new Form1();
+            f1.Show();
+            Dispose();
         }
     }
 }

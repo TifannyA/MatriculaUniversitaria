@@ -70,7 +70,6 @@
             this.label2.Size = new System.Drawing.Size(71, 16);
             this.label2.TabIndex = 5;
             this.label2.Text = "ID Usuario";
-
             // 
             // label3
             // 
@@ -101,8 +100,9 @@
             this.button2.TabIndex = 8;
             this.button2.Text = "¿Desea registrarse?";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // Login
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -115,7 +115,7 @@
             this.Controls.Add(this.txtPass);
             this.Controls.Add(this.txtidUsuario);
             this.Controls.Add(this.label1);
-            this.Name = "Login";
+            this.Name = "Form1";
             this.Text = "Login";
             this.ResumeLayout(false);
             this.PerformLayout();
