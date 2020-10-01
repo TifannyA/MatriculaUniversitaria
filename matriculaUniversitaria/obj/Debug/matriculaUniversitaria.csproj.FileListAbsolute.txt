@@ -1,0 +1,11 @@
+C:\Users\Usuario\source\repos\TifannyA\repositorio\MatriculaUniversitaria\matriculaUniversitaria\bin\Debug\matriculaUniversitaria.exe.config
+C:\Users\Usuario\source\repos\TifannyA\repositorio\MatriculaUniversitaria\matriculaUniversitaria\bin\Debug\matriculaUniversitaria.exe
+C:\Users\Usuario\source\repos\TifannyA\repositorio\MatriculaUniversitaria\matriculaUniversitaria\bin\Debug\matriculaUniversitaria.pdb
+C:\Users\Usuario\source\repos\TifannyA\repositorio\MatriculaUniversitaria\matriculaUniversitaria\obj\Debug\matriculaUniversitaria.csprojAssemblyReference.cache
+C:\Users\Usuario\source\repos\TifannyA\repositorio\MatriculaUniversitaria\matriculaUniversitaria\obj\Debug\matriculaUniversitaria.Properties.Resources.resources
+C:\Users\Usuario\source\repos\TifannyA\repositorio\MatriculaUniversitaria\matriculaUniversitaria\obj\Debug\matriculaUniversitaria.csproj.GenerateResource.cache
+C:\Users\Usuario\source\repos\TifannyA\repositorio\MatriculaUniversitaria\matriculaUniversitaria\obj\Debug\matriculaUniversitaria.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\TifannyA\repositorio\MatriculaUniversitaria\matriculaUniversitaria\obj\Debug\matriculaUniversitaria.exe
+C:\Users\Usuario\source\repos\TifannyA\repositorio\MatriculaUniversitaria\matriculaUniversitaria\obj\Debug\matriculaUniversitaria.pdb
+C:\Users\Usuario\source\repos\TifannyA\repositorio\MatriculaUniversitaria\matriculaUniversitaria\obj\Debug\matriculaUniversitaria.RegistrarUser.resources
+C:\Users\Usuario\source\repos\TifannyA\repositorio\MatriculaUniversitaria\matriculaUniversitaria\obj\Debug\matriculaUniversitaria.Form1.resources
