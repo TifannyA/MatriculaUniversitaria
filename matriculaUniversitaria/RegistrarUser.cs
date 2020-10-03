@@ -34,9 +34,23 @@ namespace matriculaUniversitaria
         }
         private void button1_Click(object sender, EventArgs e)
         {
+            if (txtPass.Text==txtPass.Text)
+            {
+                if (Usuario.CrearCuenta(txtUsuario.Text, txtCodigo.Text, txtPersona.Text, txtPass.Text, cbxTipoUsu.Text,txtEstado.Text) > 0)
+                {
+                    MessageBox.Show("Cuenta creada con éxito");
+                }
+                else
+                    MessageBox.Show("No se pudo crear la cuenta");
+            }
             Form1 f1 = new Form1();
             f1.Show();
-            Dispose();
+            
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

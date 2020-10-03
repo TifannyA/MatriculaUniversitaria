@@ -35,12 +35,12 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.txtUsuario = new System.Windows.Forms.TextBox();
+            this.txtPersona = new System.Windows.Forms.TextBox();
+            this.txtPass = new System.Windows.Forms.TextBox();
+            this.txtCodigo = new System.Windows.Forms.TextBox();
+            this.txtEstado = new System.Windows.Forms.TextBox();
+            this.cbxTipoUsu = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -119,52 +119,53 @@
             this.label7.TabIndex = 6;
             this.label7.Text = "REGISTRAR";
             // 
-            // textBox1
+            // txtUsuario
             // 
-            this.textBox1.Location = new System.Drawing.Point(92, 44);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(177, 24);
-            this.textBox1.TabIndex = 7;
+            this.txtUsuario.Location = new System.Drawing.Point(116, 41);
+            this.txtUsuario.Name = "txtUsuario";
+            this.txtUsuario.Size = new System.Drawing.Size(177, 24);
+            this.txtUsuario.TabIndex = 7;
             // 
-            // textBox2
+            // txtPersona
             // 
-            this.textBox2.Location = new System.Drawing.Point(92, 143);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(177, 24);
-            this.textBox2.TabIndex = 8;
+            this.txtPersona.Location = new System.Drawing.Point(116, 140);
+            this.txtPersona.Name = "txtPersona";
+            this.txtPersona.Size = new System.Drawing.Size(177, 24);
+            this.txtPersona.TabIndex = 8;
             // 
-            // textBox3
+            // txtPass
             // 
-            this.textBox3.Location = new System.Drawing.Point(92, 191);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(177, 24);
-            this.textBox3.TabIndex = 9;
+            this.txtPass.Location = new System.Drawing.Point(116, 188);
+            this.txtPass.Name = "txtPass";
+            this.txtPass.Size = new System.Drawing.Size(177, 24);
+            this.txtPass.TabIndex = 9;
             // 
-            // textBox4
+            // txtCodigo
             // 
-            this.textBox4.Location = new System.Drawing.Point(92, 96);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(177, 24);
-            this.textBox4.TabIndex = 10;
+            this.txtCodigo.Location = new System.Drawing.Point(116, 93);
+            this.txtCodigo.Name = "txtCodigo";
+            this.txtCodigo.Size = new System.Drawing.Size(177, 24);
+            this.txtCodigo.TabIndex = 10;
+            this.txtCodigo.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
-            // textBox6
+            // txtEstado
             // 
-            this.textBox6.Location = new System.Drawing.Point(92, 283);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(177, 24);
-            this.textBox6.TabIndex = 12;
+            this.txtEstado.Location = new System.Drawing.Point(116, 280);
+            this.txtEstado.Name = "txtEstado";
+            this.txtEstado.Size = new System.Drawing.Size(177, 24);
+            this.txtEstado.TabIndex = 12;
             // 
-            // comboBox1
+            // cbxTipoUsu
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cbxTipoUsu.FormattingEnabled = true;
+            this.cbxTipoUsu.Items.AddRange(new object[] {
             "Administrador",
             "Estudiante",
             "Profesor"});
-            this.comboBox1.Location = new System.Drawing.Point(106, 236);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(163, 26);
-            this.comboBox1.TabIndex = 13;
+            this.cbxTipoUsu.Location = new System.Drawing.Point(116, 233);
+            this.cbxTipoUsu.Name = "cbxTipoUsu";
+            this.cbxTipoUsu.Size = new System.Drawing.Size(177, 26);
+            this.cbxTipoUsu.TabIndex = 13;
             // 
             // button1
             // 
@@ -183,12 +184,12 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(335, 346);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.cbxTipoUsu);
+            this.Controls.Add(this.txtEstado);
+            this.Controls.Add(this.txtCodigo);
+            this.Controls.Add(this.txtPass);
+            this.Controls.Add(this.txtPersona);
+            this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -197,7 +198,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "RegistrarUser";
             this.Text = "RegistrarUser";
             this.Load += new System.EventHandler(this.RegistrarUser_Load);
@@ -215,12 +216,12 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox txtUsuario;
+        private System.Windows.Forms.TextBox txtPersona;
+        private System.Windows.Forms.TextBox txtPass;
+        private System.Windows.Forms.TextBox txtCodigo;
+        private System.Windows.Forms.TextBox txtEstado;
+        private System.Windows.Forms.ComboBox cbxTipoUsu;
         private System.Windows.Forms.Button button1;
     }
 }
