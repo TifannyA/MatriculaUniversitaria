@@ -37,8 +37,9 @@ namespace matriculaUniversitaria
 
         private void button2_Click(object sender, EventArgs e)
         {
-            RegistrarUser fm = new RegistrarUser();
-            fm.Show();
+            //RegistrarUser fm = new RegistrarUser();
+            //fm.Show();
+            this.Close();
             
         }
     }
