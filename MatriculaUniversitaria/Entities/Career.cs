@@ -50,9 +50,9 @@ namespace MatriculaUniversitaria.Entities
             set { _endDate = value; }
         }
 
-        public string toString() 
+        public string toString()
         {
-            return this._id+"-"+this._name+"-"+this._totalCredit+"-"+this._state+"-"+this.startDate+"-"+this.endDate;
+            return this._id + "-" + this._name + "-" + this._totalCredit + "-" + this._state + "-" + this.startDate + "-" + this.endDate;
         }
     }
 }

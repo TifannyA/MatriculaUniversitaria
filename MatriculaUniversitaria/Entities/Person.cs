@@ -65,7 +65,7 @@ namespace MatriculaUniversitaria.Entities
             set { _sex = value; }
         }
 
-        public string  academyLvl
+        public string academyLvl
         {
             get { return _academyLvl; }
             set { _academyLvl = value; }
@@ -103,10 +103,10 @@ namespace MatriculaUniversitaria.Entities
 
 
 
-        public string printPerson() 
+        public string printPerson()
         {
-            return this._id + "-"+this._dni + "-" + this._name + "-"+this._last+"-"+this._sex+"-"+this._bornDate
-                +"-"+this._admisionDate+"-"+this._admisionUser+"-"+this._nationality+"-"+this._state;
+            return this._id + "-" + this._dni + "-" + this._name + "-" + this._last + "-" + this._sex + "-" + this._bornDate
+                + "-" + this._admisionDate + "-" + this._admisionUser + "-" + this._nationality + "-" + this._state;
         }
 
     }
