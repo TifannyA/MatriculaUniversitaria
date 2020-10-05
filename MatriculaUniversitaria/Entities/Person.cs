@@ -20,6 +20,10 @@ namespace MatriculaUniversitaria.Entities
         private string _nationality;
         private string _state;
 
+        public Person()
+        {
+        }
+
         public Person(int id, int dni, string name, string last, char sex, DateTime bornDate, string academyLvl, DateTime admisionDate, string admisionUser, string nationality, string state)
         {
             _id = id;
