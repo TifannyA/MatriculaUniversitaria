@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace matriculaUniversitaria.DataAccess
 {
-    class PersonDA
+    class personDA
     {
         public bool writePerson(LinkedList<Person> people)
         {
@@ -33,20 +33,30 @@ namespace matriculaUniversitaria.DataAccess
             }
             return true;
         }
-        public LinkedList<Person> readPerson() 
+        public LinkedList<Person> readPerson()
         {
-            LinkedList<Person> people= new LinkedList<Person>();
+            LinkedList<Person> people = new LinkedList<Person>();
+            StreamReader sr = new StreamReader(@"Person.txt");
 
             try
             {
                 String line = null;
-                StreamReader sr = new StreamReader("C:\\Sample.txt");
                 line = sr.ReadLine();
                 while (line != null)
                 {
-                    string[] dats = line.Split('-');
+                    string[] dats = line.Split(',');
                     Person p = new Person();
                     p.id = int.Parse(dats[0]);
+                    p.dni = int.Parse(dats[1]);
+                    p.name = dats[2];
+                    p.last = dats[3];
+                    p.sex = char.Parse(dats[4]);
+                    p.bonrDate = DateTime.Parse(dats[5]);
+                    p.admisionDate = DateTime.Parse(dats[6]);
+                    p.admisionUser = dats[7];
+                    p.nationality = dats[8];
+                    p.state= dats[9];
+                    people.AddLast(p);
                 }
                 //close the file
                 sr.Close();
@@ -58,7 +68,7 @@ namespace matriculaUniversitaria.DataAccess
             }
             finally
             {
-                Console.WriteLine("Executing finally block.");
+                sr.Close();
             }
             return people;
         }

@@ -109,8 +109,8 @@ namespace MatriculaUniversitaria.Entities
 
         public string printPerson()
         {
-            return this._id + "-" + this._dni + "-" + this._name + "-" + this._last + "-" + this._sex + "-" + this._bornDate
-                + "-" + this._admisionDate + "-" + this._admisionUser + "-" + this._nationality + "-" + this._state;
+            return this._id + "," + this._dni + "," + this._name + "," + this._last + "," + this._sex + "," + this._bornDate
+                + "," + this._admisionDate + "," + this._admisionUser + "," + this._nationality + "," + this._state;
         }
 
     }
