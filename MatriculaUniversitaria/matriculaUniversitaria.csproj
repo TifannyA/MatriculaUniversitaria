@@ -47,7 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BussinesObject\Logic.cs" />
-    <Compile Include="DataAccess\PersonDA.cs" />
+    <Compile Include="DataAccess\personDA.cs" />
     <Compile Include="Entities\Career.cs" />
     <Compile Include="Entities\Course.cs" />
     <Compile Include="Entities\Person.cs" />

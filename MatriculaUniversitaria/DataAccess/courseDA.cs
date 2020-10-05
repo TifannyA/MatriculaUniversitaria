@@ -8,16 +8,16 @@ using System.Threading.Tasks;
 
 namespace matriculaUniversitaria.DataAccess
 {
-    class personDA
+    class courseDA
     {
-        public bool writePerson(LinkedList<Person> people)
+        public bool writeCourse(LinkedList<Course> Courses)
         {
-            StreamWriter sw = new StreamWriter(@"Person.txt");
+            StreamWriter sw = new StreamWriter(@"Courses.txt");
             try
             {
-                foreach (Person p in people)
+                foreach (Course p in Courses)
                 {
-                    string dats = p.printPerson();
+                    string dats = p.toString();
                     sw.WriteLine(dats);
                     sw.Close();
                 }
@@ -34,10 +34,10 @@ namespace matriculaUniversitaria.DataAccess
             }
             return true;
         }
-        public LinkedList<Person> readPerson()
+        public LinkedList<Course> readCourse()
         {
-            LinkedList<Person> people = new LinkedList<Person>();
-            StreamReader sr = new StreamReader(@"Person.txt");
+            LinkedList<Course> Courses = new LinkedList<Course>();
+            StreamReader sr = new StreamReader(@"Courses.txt");
 
             try
             {
@@ -46,18 +46,14 @@ namespace matriculaUniversitaria.DataAccess
                 while (line != null)
                 {
                     string[] dats = line.Split(',');
-                    Person p = new Person();
+                    Course p = new Course();
                     p.id = int.Parse(dats[0]);
-                    p.dni = int.Parse(dats[1]);
-                    p.name = dats[2];
-                    p.last = dats[3];
-                    p.sex = char.Parse(dats[4]);
-                    p.bonrDate = DateTime.Parse(dats[5]);
-                    p.admisionDate = DateTime.Parse(dats[6]);
-                    p.admisionUser = dats[7];
-                    p.nationality = dats[8];
-                    p.state= dats[9];
-                    people.AddLast(p);
+                    p.name = dats[1];
+                    p.credits = int.Parse(dats[2]);
+                    p.idCareer = int.Parse(dats[3]);
+                    p.price = int.Parse(dats[4]);
+                    p.totalCost = int.Parse(dats[5]);
+                    Courses.AddLast(p);
                 }
                 //close the file
                 sr.Close();
@@ -71,7 +67,7 @@ namespace matriculaUniversitaria.DataAccess
             {
                 sr.Close();
             }
-            return people;
+            return Courses;
         }
     }
 }

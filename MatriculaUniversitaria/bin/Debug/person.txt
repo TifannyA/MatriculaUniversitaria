@@ -1,1 +1,1 @@
-1-207500069-Juan-Perez-M-10/2/1996 00:00:00-1/1/2018 00:00:00-Tiffany-Costa Rica-Alajuela
+1,207500069,Juan,Perez,M,10/2/1996 00:00:00,1/1/2018 00:00:00,Tiffany,Costa Rica,Alajuela
