@@ -25,9 +25,9 @@ namespace matriculaUniversitaria
         {
 
         }
-        
 
-        public Usuario(int pid_user, string pcod, int pid_person, string ppass,DateTime pfechaExp,string pestado, Boolean admin, Boolean activo)
+
+        public Usuario(int pid_user, string pcod, int pid_person, string ppass, DateTime pfechaExp, string pestado, Boolean admin, Boolean activo)
         {
             id_usuario = pid_user;
             codigo = pcod;
@@ -38,7 +38,7 @@ namespace matriculaUniversitaria
             _admin = admin;
             _activo = activo;
         }
-        public int pid_user
+        public  int pid_user
         {
             get { return id_usuario; }
             set { id_usuario = value; }
