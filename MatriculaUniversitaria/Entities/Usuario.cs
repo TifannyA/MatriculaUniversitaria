@@ -11,34 +11,74 @@ namespace matriculaUniversitaria
 {
     class Usuario
     {
-        public string id_usuario { get; set; }
-        public string codigo { get; set; }
-        public string id_persona { get; set; }
-        public string contrasenna { get; set; }
+        private int id_usuario;
+        private string codigo;
+        private int id_persona;
+        private string contrasenna;
+        private DateTime fecha_exp;
+        private string estado;
+        private Boolean _admin;
+        private Boolean _activo;
 
-        Logeventos log = new Logeventos(@" C:\Users\Usuario\source\repos\TifannyA\pruebas\");
 
         public Usuario()
         {
 
         }
-        public static int CrearCuenta(string pUsuario, string pCodigo, string pPersona,string pPass,string TUsuario,string pEstado)
-        {
-            int resultado = 0;
-            
-            return resultado;
-                }
+        
 
-        public Usuario(string id_usuario, string codigo, string id_persona, string contrasenna)
+        public Usuario(int pid_user, string pcod, int pid_person, string ppass,DateTime pfechaExp,string pestado, Boolean admin, Boolean activo)
         {
-            this.id_usuario = id_usuario;
-            this.codigo = codigo;
-            this.id_persona = id_persona;
-            this.contrasenna = contrasenna;
+            id_usuario = pid_user;
+            codigo = pcod;
+            id_persona = pid_person;
+            contrasenna = ppass;
+            fecha_exp = pfechaExp;
+            estado = pestado;
+            _admin = admin;
+            _activo = activo;
+        }
+        public int pid_user
+        {
+            get { return id_usuario; }
+            set { id_usuario = value; }
+        }
+        public string pcod
+        {
+            get { return codigo; }
+            set { codigo = value; }
+        }
+        public int pid_person
+        {
+            get { return id_persona; }
+            set { id_persona = value; }
+        }
+        public string ppass
+        {
+            get { return contrasenna; }
+            set { contrasenna = value; }
         }
 
-       
+        public DateTime pfechaExp
+        {
+            get { return fecha_exp; }
+            set { fecha_exp = value; }
+        }
 
+        public Boolean admin
+        {
+            get { return _admin; }
+            set { _admin = value; }
+        }
+        public Boolean activo
+        {
+            get { return _activo; }
+            set { _activo = value; }
+        }
 
+        public string printUsuario()
+        {
+            return this.id_usuario + "," + this.codigo + "," + this.id_persona + "," + this.contrasenna + "," + this.fecha_exp + "," + this.estado;
+        }
     }
 }
