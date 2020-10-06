@@ -40,8 +40,10 @@
             this.txtPass = new System.Windows.Forms.TextBox();
             this.txtCodigo = new System.Windows.Forms.TextBox();
             this.txtEstado = new System.Windows.Forms.TextBox();
-            this.cbxTipoUsu = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.rbAdmin = new System.Windows.Forms.RadioButton();
+            this.rbProfe = new System.Windows.Forms.RadioButton();
+            this.rbEstud = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // label1
@@ -103,7 +105,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Times New Roman", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(23, 289);
+            this.label6.Location = new System.Drawing.Point(25, 293);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(44, 15);
             this.label6.TabIndex = 5;
@@ -146,30 +148,18 @@
             this.txtCodigo.Name = "txtCodigo";
             this.txtCodigo.Size = new System.Drawing.Size(177, 24);
             this.txtCodigo.TabIndex = 10;
-            this.txtCodigo.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
+            //this.txtCodigo.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // txtEstado
             // 
-            this.txtEstado.Location = new System.Drawing.Point(116, 280);
+            this.txtEstado.Location = new System.Drawing.Point(116, 293);
             this.txtEstado.Name = "txtEstado";
             this.txtEstado.Size = new System.Drawing.Size(177, 24);
             this.txtEstado.TabIndex = 12;
             // 
-            // cbxTipoUsu
-            // 
-            this.cbxTipoUsu.FormattingEnabled = true;
-            this.cbxTipoUsu.Items.AddRange(new object[] {
-            "Administrador",
-            "Estudiante",
-            "Profesor"});
-            this.cbxTipoUsu.Location = new System.Drawing.Point(116, 233);
-            this.cbxTipoUsu.Name = "cbxTipoUsu";
-            this.cbxTipoUsu.Size = new System.Drawing.Size(177, 26);
-            this.cbxTipoUsu.TabIndex = 13;
-            // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(248, 313);
+            this.button1.Location = new System.Drawing.Point(253, 339);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 31);
             this.button1.TabIndex = 14;
@@ -177,14 +167,52 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // rbAdmin
+            // 
+            this.rbAdmin.AutoSize = true;
+            this.rbAdmin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbAdmin.Location = new System.Drawing.Point(116, 235);
+            this.rbAdmin.Name = "rbAdmin";
+            this.rbAdmin.Size = new System.Drawing.Size(101, 19);
+            this.rbAdmin.TabIndex = 15;
+            this.rbAdmin.TabStop = true;
+            this.rbAdmin.Text = "Administrador";
+            this.rbAdmin.UseVisualStyleBackColor = true;
+            // 
+            // rbProfe
+            // 
+            this.rbProfe.AutoSize = true;
+            this.rbProfe.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbProfe.Location = new System.Drawing.Point(116, 257);
+            this.rbProfe.Name = "rbProfe";
+            this.rbProfe.Size = new System.Drawing.Size(71, 19);
+            this.rbProfe.TabIndex = 16;
+            this.rbProfe.TabStop = true;
+            this.rbProfe.Text = "Profesor";
+            this.rbProfe.UseVisualStyleBackColor = true;
+            // 
+            // rbEstud
+            // 
+            this.rbEstud.AutoSize = true;
+            this.rbEstud.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbEstud.Location = new System.Drawing.Point(224, 236);
+            this.rbEstud.Name = "rbEstud";
+            this.rbEstud.Size = new System.Drawing.Size(83, 19);
+            this.rbEstud.TabIndex = 17;
+            this.rbEstud.TabStop = true;
+            this.rbEstud.Text = "Estudiante";
+            this.rbEstud.UseVisualStyleBackColor = true;
+            // 
             // RegistrarUser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(335, 346);
+            this.BackColor = System.Drawing.Color.Gray;
+            this.ClientSize = new System.Drawing.Size(354, 382);
+            this.Controls.Add(this.rbEstud);
+            this.Controls.Add(this.rbProfe);
+            this.Controls.Add(this.rbAdmin);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.cbxTipoUsu);
             this.Controls.Add(this.txtEstado);
             this.Controls.Add(this.txtCodigo);
             this.Controls.Add(this.txtPass);
@@ -221,7 +249,9 @@
         private System.Windows.Forms.TextBox txtPass;
         private System.Windows.Forms.TextBox txtCodigo;
         private System.Windows.Forms.TextBox txtEstado;
-        private System.Windows.Forms.ComboBox cbxTipoUsu;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.RadioButton rbAdmin;
+        private System.Windows.Forms.RadioButton rbProfe;
+        private System.Windows.Forms.RadioButton rbEstud;
     }
 }
