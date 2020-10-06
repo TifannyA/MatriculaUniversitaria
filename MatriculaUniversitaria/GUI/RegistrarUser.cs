@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -49,36 +50,30 @@ namespace matriculaUniversitaria
             ////}
             ////Form1 f1 = new Form1();
             ////f1.Show();
-            //error = false;
-            //usuario.admin = true;
-            //try
-            //{
-            //    if (rbAdmin.Checked)
-            //    {
-            //        usuario.admin = true;
-            //    }
-            //    else if (rbProfe.Checked)
-            //    {
-            //        usuario.admin = false;
+            error = false;
+            usuario.admin = true;
+            try
+            {
+                if (rbAdmin.Checked)
+                {
+                    usuario.admin = true;
+                }
+                else if (rbProfe.Checked)
+                {
+                    usuario.admin = false;
 
-            //        usuario.pid_user(txtUsuario.Text);
-            //        usuario.pcod(txtCodigo.Text);
-            //        usuario.pid_person(txtPersona.Text);
+                    //usuario.pid_user = txtUsuario.Text;
+                    usuario.pcod = txtCodigo.Text;
+                    usuario.ppass = txtPass.Text;
+                    //usuario.pid_person(txtPersona.Text);
 
-            //        if (txtVc.getText().equals(""))
-            //        {
-            //            txtVc.setText(txtContrasena.getText());
-            //        }
-            //        if (txtVc.getText().length() >= 5)
-            //        {
-            //            usuario.setContrasena(txtVc.getText().trim());
-            //        }
-            //        else
-            //        {
-            //            error = true;
-            //            MessageBox.Show("La contraseña debe de ser mayor a 5 dígitos" + "Matrícula");
-            //        }
 
+                    if (error = true)
+                    {
+                        MessageBox.Show("La contraseña debe de ser mayor a 5 dígitos" + "Matrícula");
+                    }
+                }
+            }
 
             //        if (ubo.guardar(usuario))
             //        {
@@ -86,23 +81,27 @@ namespace matriculaUniversitaria
             //        }
 
 
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
 
 
-            //    catch (Exception e)
-            //    {
-            //    }
-            //}
 
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
 
-            //    private void textBox4_TextChanged(object sender, EventArgs e)
-            //    {
-
-            //    }
-            //}
-        }    
+        }
     }
 }
+    
+            
+            
+    
 
+    
+ 
 
     
 
