@@ -31,3 +31,5 @@ C:\Users\Usuario\source\repos\TifannyA\repositorio\Proyecto1\MatriculaUniversita
 C:\Users\Usuario\source\repos\TifannyA\repositorio\Proyecto1\MatriculaUniversitaria\bin\Debug\matriculaUniversitaria.exe.config
 C:\Users\Usuario\source\repos\TifannyA\repositorio\Proyecto1\MatriculaUniversitaria\bin\Debug\matriculaUniversitaria.exe
 C:\Users\Usuario\source\repos\TifannyA\repositorio\Proyecto1\MatriculaUniversitaria\bin\Debug\matriculaUniversitaria.pdb
+C:\Users\Inspiron 3579 G3\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GUI.LobbyAdmin.resources
+C:\Users\Inspiron 3579 G3\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GUI.AgregarUsuario.resources
