@@ -101,6 +101,7 @@
             this.button3.TabIndex = 6;
             this.button3.Text = "Eliminar";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // ConsultarUsuario
             // 
@@ -116,6 +117,7 @@
             this.Controls.Add(this.btnBuscar);
             this.Name = "ConsultarUsuario";
             this.Text = "ConsultarUsuario";
+            this.Load += new System.EventHandler(this.ConsultarUsuario_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -16,15 +16,17 @@ namespace matriculaUniversitaria.GraphicUserInterface
     public partial class ConsultarUsuario : Form
     {
         personDA pda = new personDA();
+        LinkedList<Person> people = new LinkedList<Person>();
+        
         public ConsultarUsuario()
         {
+            people = pda.readPerson();
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            LinkedList<Person> people = new LinkedList<Person>();
-            people = pda.readPerson();
+            
             Lista.Items.Clear();
             foreach (Person p in people)
             {
@@ -54,6 +56,31 @@ namespace matriculaUniversitaria.GraphicUserInterface
 
         private void Lista_SelectedIndexChanged(object sender, EventArgs e)
         {
+        }
+
+        private void ConsultarUsuario_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (Lista.SelectedIndex < 0)
+            {
+                MessageBox.Show("Error: persona no selecionada");
+            }
+            else
+            {
+                Person p = new Person();
+                p = people.ElementAt(Lista.SelectedIndex);
+                DialogResult boton = MessageBox.Show("Desea eliminar a "+p.name+ "?", "Alerta", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+                if (boton == DialogResult.OK)
+                {
+                    people.Remove(people.ElementAt(Lista.SelectedIndex));
+                    pda.writePerson(people);
+                }
+                
+            }
         }
     }
 }
