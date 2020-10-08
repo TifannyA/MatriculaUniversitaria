@@ -5,6 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace matriculaUniversitaria.DataAccess
 {
@@ -17,10 +18,9 @@ namespace matriculaUniversitaria.DataAccess
             {
                 foreach (Person p in people)
                 {
-                    string dats = p.printPerson();
-                    sw.WriteLine(dats);
-                    sw.Close();
+                    sw.WriteLine(p.printPerson());
                 }
+                sw.Close();
 
             }
             catch (Exception e)
@@ -34,6 +34,7 @@ namespace matriculaUniversitaria.DataAccess
             }
             return true;
         }
+
         public LinkedList<Person> readPerson()
         {
             LinkedList<Person> people = new LinkedList<Person>();
@@ -46,26 +47,16 @@ namespace matriculaUniversitaria.DataAccess
                 while (line != null)
                 {
                     string[] dats = line.Split(',');
-                    Person p = new Person();
-                    p.id = int.Parse(dats[0]);
-                    p.dni = int.Parse(dats[1]);
-                    p.name = dats[2];
-                    p.last = dats[3];
-                    p.sex = char.Parse(dats[4]);
-                    p.bonrDate = DateTime.Parse(dats[5]);
-                    p.admisionDate = DateTime.Parse(dats[6]);
-                    p.admisionUser = dats[7];
-                    p.nationality = dats[8];
-                    p.state= dats[9];
+                    Person p = new Person(int.Parse(dats[1]), dats[2], dats[3], dats[4],
+                               DateTime.Parse(dats[5]), DateTime.Parse(dats[6]), dats[7], dats[8], dats[9], dats[10]);
                     people.AddLast(p);
+                    line = sr.ReadLine();
                 }
-                //close the file
-                sr.Close();
-                Console.ReadLine();
+                    sr.Close();
             }
             catch (Exception e)
             {
-                Console.WriteLine("Exception: " + e.Message);
+                MessageBox.Show("Exception: " + e.Message);
             }
             finally
             {

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace matriculaUniversitaria.BussinesObject
 {
-    class Logic
+    class GeneralBO
     {
         private LinkedList<Person> _people;
 

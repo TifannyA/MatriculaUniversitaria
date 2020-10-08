@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="pass" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Hola</Value>
+      <Value Profile="(Default)">Curso</Value>
     </Setting>
   </Settings>
 </SettingsFile>

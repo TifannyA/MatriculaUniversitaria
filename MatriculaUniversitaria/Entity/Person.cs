@@ -12,7 +12,7 @@ namespace MatriculaUniversitaria.Entities
         private int _dni;
         private string _name;
         private string _last;
-        private char _sex;
+        private string _sex;
         private DateTime _bornDate;
         private string _academyLvl;
         private DateTime _admisionDate;
@@ -24,9 +24,9 @@ namespace MatriculaUniversitaria.Entities
         {
         }
 
-        public Person(int id, int dni, string name, string last, char sex, DateTime bornDate, string academyLvl, DateTime admisionDate, string admisionUser, string nationality, string state)
+        public Person(int dni, string name, string last, string sex, DateTime bornDate,  DateTime admisionDate, string academyLvl, string admisionUser, string nationality, string state)
         {
-            _id = id;
+            _id = 0;
             _dni = dni;
             _name = name;
             _last = last;
@@ -42,7 +42,7 @@ namespace MatriculaUniversitaria.Entities
         public int id
         {
             get { return id; }
-            set { id = value; }
+            set{id = value; }
         }
 
         public int dni
@@ -63,7 +63,7 @@ namespace MatriculaUniversitaria.Entities
             set { _last = value; }
         }
 
-        public char sex
+        public string sex
         {
             get { return _sex; }
             set { _sex = value; }
@@ -105,12 +105,10 @@ namespace MatriculaUniversitaria.Entities
             set { _state = value; }
         }
 
-
-
         public string printPerson()
         {
             return this._id + "," + this._dni + "," + this._name + "," + this._last + "," + this._sex + "," + this._bornDate
-                + "," + this._admisionDate + "," + this._admisionUser + "," + this._nationality + "," + this._state;
+                + "," + this._admisionDate + "," +this._academyLvl+","+ this._admisionUser + "," + this._nationality + "," + this._state;
         }
 
     }
