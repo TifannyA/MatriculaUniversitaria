@@ -18,8 +18,8 @@ namespace matriculaUniversitaria.DataAccess
                 {
                     string dats = u.printUsuario();
                     sw.WriteLine(dats);
-                    sw.Close();
                 }
+                    sw.Close();
 
             }
             catch (Exception e)
@@ -51,11 +51,12 @@ namespace matriculaUniversitaria.DataAccess
                     u.pid_person = int.Parse(dats[2]);
                     u.ppass = dats[3];
                     u.pfechaExp = DateTime.Parse(dats[4]);
-                    //u.activo = dats[5];
+                    u.estado = dats[5];
                     users.AddLast(u);
+                    line = sr.ReadLine();
+
                 }
                 sr.Close();
-                Console.ReadLine();
             }
             catch (Exception e)
             {

@@ -8,15 +8,18 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using matriculaUniversitaria.BussinesObject;
+using matriculaUniversitaria.DataAccess;
+using MatriculaUniversitaria.Entities;
 
 namespace matriculaUniversitaria
 {
+    
     public partial class RegistrarUser : Form
     {
-        Usuario usuario = new Usuario();
-        private Boolean editar;
-        private Boolean ver = false;
-        private Boolean error = false;
+        GeneralBO lbo = new GeneralBO();
+        personDA pda = new personDA();
+        userDA uda = new userDA();
         public RegistrarUser()
         {
             InitializeComponent();
@@ -38,59 +41,40 @@ namespace matriculaUniversitaria
         }
         private void button1_Click(object sender, EventArgs e)
         {
-        //    //Usuario usuario = new Usuario();
-        //    ////if (txtPass.Text==txtPass.Text)
-        //    ////{
-        //    ////    if (u.(txtUsuario.Text, txtCodigo.Text, txtPersona.Text, txtPass.Text, cbxTipoUsu.Text,txtEstado.Text) > 0)
-        //    ////    {
-        //    ////        MessageBox.Show("Cuenta creada con éxito");
-        //    ////    }
-        //    ////    else
-        //    ////        MessageBox.Show("No se pudo crear la cuenta");
-        //    ////}
-        //    ////Form1 f1 = new Form1();
-        //    ////f1.Show();
-        //    error = false;
-        //    usuario.admin = true;
-        //    try
-        //    {
-        //        if (rbAdmin.Checked)
-        //        {
-        //            usuario.admin = true;
-        //        }
-        //        else if (rbProfe.Checked)
-        //        {
-        //            usuario.admin = false;
+            if (((txtUsuario.Text.Equals("") && txtCodigo.Text.Equals("")) && (txtPersona.Text.Equals("") && txtPass.Text.Equals("")) &&
+                (cbxEstado.Text.Equals("- Elija una opción -")&& (cbxTipo.Text.Equals("- Elija una opción -")))))
+            {
+                MessageBox.Show("Datos incompletos");
+            }
+            else
+            {
+                try
+                {
+                    LinkedList<Usuario> users = uda.readUsuario();
+                    Usuario u = new Usuario(int.Parse(txtUsuario.Text), txtCodigo.Text, int.Parse(txtPersona.Text), txtPass.Text,
+                                DateTime.Now, cbxTipo.Text, cbxEstado.Text);
+                    users.AddLast(u);
+                    uda.writeUser(users);
+                    MessageBox.Show("Terminó");
 
-        //            //usuario.pid_user = txtUsuario.Text;
-        //            usuario.pcod = txtCodigo.Text;
-        //            usuario.ppass = txtPass.Text;
-        //            //usuario.pid_person(txtPersona.Text);
+                }
+                catch (Exception ex)
+                {
 
+                    MessageBox.Show(ex.Message + " - " + ex.StackTrace);
+                }
 
-        //            if (error = true)
-        //            {
-        //                MessageBox.Show("La contraseña debe de ser mayor a 5 dígitos" + "Matrícula");
-        //            }
-        //        }
-        //    }
-
-        //    //        if (ubo.guardar(usuario))
-        //    //        {
-        //    //            this.Close();
-        //    //        }
-
-
-        //    catch (Exception ex)
-        //    {
-        //        throw ex;
-        //    }
+            }
         }
-
-
 
         private void textBox4_TextChanged(object sender, EventArgs e)
         {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
 
         }
     }

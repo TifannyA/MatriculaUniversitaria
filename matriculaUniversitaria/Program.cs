@@ -15,11 +15,10 @@ namespace matriculaUniversitaria
         [STAThread]
         static void Main()
         {
-            Logeventos log = new Logeventos(@" C:\Users\Usuario\source\repos\TifannyA\pruebas\");
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LobbyAdmin());
+            Application.Run(new RegistrarUser());
         }
 
 
