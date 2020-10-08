@@ -62,10 +62,10 @@ namespace matriculaUniversitaria
                 {
                     usuario.admin = false;
 
-                    //usuario.pid_user = txtUsuario.Text;
+                    usuario.pid_user = Convert.ToInt32(txtUsuario.Text);
                     usuario.pcod = txtCodigo.Text;
                     usuario.ppass = txtPass.Text;
-                    //usuario.pid_person(txtPersona.Text);
+                    usuario.pid_person=Convert.ToInt32(txtPersona.Text);
 
 
                     if (error = true)
@@ -73,12 +73,12 @@ namespace matriculaUniversitaria
                         MessageBox.Show("La contraseña debe de ser mayor a 5 dígitos" + "Matrícula");
                     }
                 }
+            
+            
+                    if (usuario.guardar(usuario))
+            {
+                this.Close();
             }
-
-            //        if (ubo.guardar(usuario))
-            //        {
-            //            this.Close();
-            //        }
 
 
             catch (Exception ex)
