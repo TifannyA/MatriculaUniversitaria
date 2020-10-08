@@ -1,1 +1,3 @@
-1,207500069,Juan,Perez,M,10/2/1996 00:00:00,1/1/2018 00:00:00,Tiffany,Costa Rica,Alajuela
+0,204900658,Martha,Perez,Femenino,10/1/1976 18:27:00,7/10/2020 18:28:42,Diplomado,Tiffany,Costa Rica,Alajuela
+0,207500069,Juan,Perez,Masculino,10/2/1996 18:56:50,7/10/2020 18:57:48,Diplomado,Tiffany,Costa Rica,Alajuela
+0,202240750,Hazel,Ochoa,Femenino,6/5/1991 18:58:42,7/10/2020 18:59:28,Licenciatura,Tiffany,Costa Rica,Alajuela

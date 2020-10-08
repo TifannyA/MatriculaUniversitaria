@@ -1,4 +1,6 @@
 ﻿using matriculaUniversitaria.BussinesObject;
+using matriculaUniversitaria.DataAccess;
+using MatriculaUniversitaria.Entities;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -15,6 +17,8 @@ namespace matriculaUniversitaria.GUI
     public partial class AgregarUsuario : Form
     {
         GeneralBO lbo = new GeneralBO();
+        personDA pda = new personDA();
+        userDA uda = new userDA();
         public AgregarUsuario()
         {
             
@@ -24,6 +28,7 @@ namespace matriculaUniversitaria.GUI
             cmbAcademylvl.Items.Add("Diplomado");
             cmbAcademylvl.Items.Add("Bachillerato");
             cmbAcademylvl.Items.Add("Licenciatura");
+            
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -73,7 +78,29 @@ namespace matriculaUniversitaria.GUI
 
         private void btnAceptar_Click(object sender, EventArgs e)
         {
+            if (((txtDni.Text.Equals("") && txtNombre.Text.Equals("")) && (txtApellido.Text.Equals("") && txtCountry.Text.Equals("")) &&
+                (txtState.Text.Equals("") && txtpass.Text.Equals("")) && (cmbSexo.Text.Equals("- Elija una opción -"))))
+            {
+                MessageBox.Show("Datos incompletos");
+            }
+            else {
+                try
+                {
+                    LinkedList<Person> people = pda.readPerson();
+                    Person np = new Person(int.Parse(txtDni.Text),txtNombre.Text,txtApellido.Text,cmbSexo.Text,
+                                timerBornDate.Value,DateTime.Now,cmbAcademylvl.Text,"Tiffany",txtCountry.Text,txtState.Text);
+                    people.AddLast(np);
+                    pda.writePerson(people);
+                    MessageBox.Show("Terminó");
 
+                }
+                catch (Exception ex)
+                {
+
+                    MessageBox.Show(ex.Message + " - " + ex.StackTrace);
+                }
+                
+            }
         }
 
         private void AgregarUsuario_Load(object sender, EventArgs e)
