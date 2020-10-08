@@ -38,53 +38,53 @@ namespace matriculaUniversitaria
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            //Usuario usuario = new Usuario();
-            ////if (txtPass.Text==txtPass.Text)
-            ////{
-            ////    if (u.(txtUsuario.Text, txtCodigo.Text, txtPersona.Text, txtPass.Text, cbxTipoUsu.Text,txtEstado.Text) > 0)
-            ////    {
-            ////        MessageBox.Show("Cuenta creada con éxito");
-            ////    }
-            ////    else
-            ////        MessageBox.Show("No se pudo crear la cuenta");
-            ////}
-            ////Form1 f1 = new Form1();
-            ////f1.Show();
-            error = false;
-            usuario.admin = true;
-            try
-            {
-                if (rbAdmin.Checked)
-                {
-                    usuario.admin = true;
-                }
-                else if (rbProfe.Checked)
-                {
-                    usuario.admin = false;
+        //    //Usuario usuario = new Usuario();
+        //    ////if (txtPass.Text==txtPass.Text)
+        //    ////{
+        //    ////    if (u.(txtUsuario.Text, txtCodigo.Text, txtPersona.Text, txtPass.Text, cbxTipoUsu.Text,txtEstado.Text) > 0)
+        //    ////    {
+        //    ////        MessageBox.Show("Cuenta creada con éxito");
+        //    ////    }
+        //    ////    else
+        //    ////        MessageBox.Show("No se pudo crear la cuenta");
+        //    ////}
+        //    ////Form1 f1 = new Form1();
+        //    ////f1.Show();
+        //    error = false;
+        //    usuario.admin = true;
+        //    try
+        //    {
+        //        if (rbAdmin.Checked)
+        //        {
+        //            usuario.admin = true;
+        //        }
+        //        else if (rbProfe.Checked)
+        //        {
+        //            usuario.admin = false;
 
-                    //usuario.pid_user = txtUsuario.Text;
-                    usuario.pcod = txtCodigo.Text;
-                    usuario.ppass = txtPass.Text;
-                    //usuario.pid_person(txtPersona.Text);
-
-
-                    if (error = true)
-                    {
-                        MessageBox.Show("La contraseña debe de ser mayor a 5 dígitos" + "Matrícula");
-                    }
-                }
-            }
-
-            //        if (ubo.guardar(usuario))
-            //        {
-            //            this.Close();
-            //        }
+        //            //usuario.pid_user = txtUsuario.Text;
+        //            usuario.pcod = txtCodigo.Text;
+        //            usuario.ppass = txtPass.Text;
+        //            //usuario.pid_person(txtPersona.Text);
 
 
-            catch (Exception ex)
-            {
-                throw ex;
-            }
+        //            if (error = true)
+        //            {
+        //                MessageBox.Show("La contraseña debe de ser mayor a 5 dígitos" + "Matrícula");
+        //            }
+        //        }
+        //    }
+
+        //    //        if (ubo.guardar(usuario))
+        //    //        {
+        //    //            this.Close();
+        //    //        }
+
+
+        //    catch (Exception ex)
+        //    {
+        //        throw ex;
+        //    }
         }
 
 
