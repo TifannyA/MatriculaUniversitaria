@@ -41,8 +41,9 @@ namespace matriculaUniversitaria
         }
         private void button1_Click(object sender, EventArgs e)
         {
+
             if (((txtUsuario.Text.Equals("") && txtCodigo.Text.Equals("")) && (txtPersona.Text.Equals("") && txtPass.Text.Equals("")) &&
-                (cbxEstado.Text.Equals("- Elija una opción -")&& (cbxTipo.Text.Equals("- Elija una opción -")))))
+                (cbxEstado.Text.Equals("- Elija una opción -") && (cbxTipo.Text.Equals("- Elija una opción -")))))
             {
                 MessageBox.Show("Datos incompletos");
             }
@@ -66,6 +67,7 @@ namespace matriculaUniversitaria
 
             }
         }
+
 
         private void textBox4_TextChanged(object sender, EventArgs e)
         {
