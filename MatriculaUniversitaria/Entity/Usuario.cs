@@ -16,9 +16,8 @@ namespace matriculaUniversitaria
         private int id_persona;
         private string contrasenna;
         private DateTime fecha_exp;
-        private string estado;
-        private Boolean _admin;
-        private Boolean _activo;
+        private string _estado;
+        private string _tipo;
 
 
         public Usuario()
@@ -27,16 +26,16 @@ namespace matriculaUniversitaria
         }
 
 
-        public Usuario(int pid_user, string pcod, int pid_person, string ppass, DateTime pfechaExp, string pestado, Boolean admin, Boolean activo)
+        public Usuario(int pid_user, string pcod, int pid_person, string ppass, DateTime pfechaExp,  string tipo, string estado)
         {
             id_usuario = pid_user;
             codigo = pcod;
             id_persona = pid_person;
             contrasenna = ppass;
             fecha_exp = pfechaExp;
-            estado = pestado;
-            _admin = admin;
-            _activo = activo;
+            estado = estado;
+            _tipo = tipo;
+            _estado = estado;
         }
         public  int pid_user
         {
@@ -65,20 +64,20 @@ namespace matriculaUniversitaria
             set { fecha_exp = value; }
         }
 
-        public Boolean admin
+        public string tipo
         {
-            get { return _admin; }
-            set { _admin = value; }
+            get { return _tipo; }
+            set { _tipo = value; }
         }
-        public Boolean activo
+        public string estado
         {
-            get { return _activo; }
-            set { _activo = value; }
+            get { return _estado; }
+            set { _estado = value; }
         }
 
         public string printUsuario()
         {
-            return this.id_usuario + "," + this.codigo + "," + this.id_persona + "," + this.contrasenna + "," + this.fecha_exp + "," + this.estado;
+            return this.id_usuario + "," + this.codigo + "," + this.id_persona + "," + this.contrasenna + "," + this.fecha_exp + "," + this.tipo + "," + this.estado;
         }
     }
 }

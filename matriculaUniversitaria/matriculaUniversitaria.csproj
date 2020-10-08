@@ -72,7 +72,6 @@
     <Compile Include="GraphicUserInterface\LobbyAdmin.Designer.cs">
       <DependentUpon>LobbyAdmin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Logeventos.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="GraphicUserInterface\RegistrarUser.cs">
