@@ -1,4 +1,5 @@
-﻿using System;
+﻿using matriculaUniversitaria.GraphicUserInterface;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -29,8 +30,13 @@ namespace matriculaUniversitaria.GUI
 
         private void crearToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            AgregarUsuario au = new AgregarUsuario();
-            au.Show();
+            ConsultarUsuario cu = new ConsultarUsuario();
+            cu.Show();
+        }
+
+        private void consultarToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

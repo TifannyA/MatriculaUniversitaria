@@ -91,7 +91,6 @@ namespace matriculaUniversitaria.GUI
                                 timerBornDate.Value,DateTime.Now,cmbAcademylvl.Text,"Tiffany",txtCountry.Text,txtState.Text);
                     people.AddLast(np);
                     pda.writePerson(people);
-                    MessageBox.Show("Terminó");
 
                 }
                 catch (Exception ex)
@@ -111,6 +110,11 @@ namespace matriculaUniversitaria.GUI
         private void btnCancelar_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
