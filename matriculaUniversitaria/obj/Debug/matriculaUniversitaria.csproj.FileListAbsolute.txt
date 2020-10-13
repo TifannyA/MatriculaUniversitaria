@@ -37,3 +37,8 @@ C:\Users\Usuario\source\repos\TifannyA\repositorio\MatriculaUniversitaria\Matric
 C:\Users\Usuario\source\repos\TifannyA\repositorio\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GUI.LobbyAdmin.resources
 C:\Users\Inspiron 3579 G3\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.ConsultarUsuario.resources
 C:\Users\Inspiron 3579 G3\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.EditarUsuario.resources
+C:\Users\Inspiron 3579 G3\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.ConsultarCarrera.resources
+C:\Users\Inspiron 3579 G3\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.AgregarCarrera.resources
+C:\Users\Inspiron 3579 G3\source\repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.EditarCarrera.resources
+C:\Users\Inspiron 3579 G3\source\repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.ConsultarCurso.resources
+C:\Users\Inspiron 3579 G3\source\repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.AgregarCurso.resources

@@ -38,5 +38,22 @@ namespace matriculaUniversitaria.GUI
         {
             
         }
+
+        private void consultarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ConsultarCarrera cc = new ConsultarCarrera();
+            cc.Show();
+        }
+
+        private void agregarToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            ConsultarCurso cc = new ConsultarCurso();
+            cc.Show();
+        }
+
+        private void cursoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

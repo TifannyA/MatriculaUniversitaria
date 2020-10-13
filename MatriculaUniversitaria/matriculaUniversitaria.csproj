@@ -54,17 +54,47 @@
     <Compile Include="Entity\Career.cs" />
     <Compile Include="Entity\Course.cs" />
     <Compile Include="Entity\Person.cs" />
+    <Compile Include="GraphicUserInterface\AgregarCarrera.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GraphicUserInterface\AgregarCarrera.Designer.cs">
+      <DependentUpon>AgregarCarrera.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GraphicUserInterface\AgregarCurso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GraphicUserInterface\AgregarCurso.Designer.cs">
+      <DependentUpon>AgregarCurso.cs</DependentUpon>
+    </Compile>
     <Compile Include="GraphicUserInterface\AgregarUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GraphicUserInterface\AgregarUsuario.Designer.cs">
       <DependentUpon>AgregarUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="GraphicUserInterface\ConsultarCarrera.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GraphicUserInterface\ConsultarCarrera.Designer.cs">
+      <DependentUpon>ConsultarCarrera.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GraphicUserInterface\ConsultarCurso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GraphicUserInterface\ConsultarCurso.Designer.cs">
+      <DependentUpon>ConsultarCurso.cs</DependentUpon>
+    </Compile>
     <Compile Include="GraphicUserInterface\ConsultarUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GraphicUserInterface\ConsultarUsuario.Designer.cs">
       <DependentUpon>ConsultarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GraphicUserInterface\EditarCarrera.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GraphicUserInterface\EditarCarrera.Designer.cs">
+      <DependentUpon>EditarCarrera.cs</DependentUpon>
     </Compile>
     <Compile Include="GraphicUserInterface\EditarUsuario.cs">
       <SubType>Form</SubType>
@@ -93,11 +123,26 @@
       <DependentUpon>RegistrarUser.cs</DependentUpon>
     </Compile>
     <Compile Include="Entity\Usuario.cs" />
+    <EmbeddedResource Include="GraphicUserInterface\AgregarCarrera.resx">
+      <DependentUpon>AgregarCarrera.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GraphicUserInterface\AgregarCurso.resx">
+      <DependentUpon>AgregarCurso.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GraphicUserInterface\AgregarUsuario.resx">
       <DependentUpon>AgregarUsuario.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GraphicUserInterface\ConsultarCarrera.resx">
+      <DependentUpon>ConsultarCarrera.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GraphicUserInterface\ConsultarCurso.resx">
+      <DependentUpon>ConsultarCurso.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GraphicUserInterface\ConsultarUsuario.resx">
       <DependentUpon>ConsultarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GraphicUserInterface\EditarCarrera.resx">
+      <DependentUpon>EditarCarrera.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GraphicUserInterface\EditarUsuario.resx">
       <DependentUpon>EditarUsuario.cs</DependentUpon>

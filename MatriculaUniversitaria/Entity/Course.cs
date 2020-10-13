@@ -8,12 +8,26 @@ namespace MatriculaUniversitaria.Entities
 {
     class Course
     {
-        private int _id;
+        private string _id;
         private string _name;
         private int _credits;
-        private int _idCareer;
+        private string _idCareer;
         private int _price;
         private int _totalCost;
+
+        public Course()
+        {
+        }
+
+        public Course(string id, string name, int credits, string idCareer, int price, int totalCost)
+        {
+            _id = id;
+            _name = name;
+            _credits = credits;
+            _idCareer = idCareer;
+            _price = price;
+            _totalCost = totalCost;
+        }
 
         public int totalCost
         {
@@ -29,7 +43,7 @@ namespace MatriculaUniversitaria.Entities
         }
 
 
-        public int idCareer
+        public string idCareer
         {
             get { return _idCareer; }
             set { _idCareer = value; }
@@ -50,7 +64,7 @@ namespace MatriculaUniversitaria.Entities
         }
 
 
-        public int id
+        public string id
         {
             get { return _id; }
             set { _id = value; }
