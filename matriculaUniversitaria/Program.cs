@@ -18,7 +18,7 @@ namespace matriculaUniversitaria
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LobbyAdmin());
+            Application.Run(new RegistrarUser());
         }
 
 

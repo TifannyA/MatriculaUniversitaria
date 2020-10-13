@@ -11,6 +11,7 @@ using System.Windows.Forms;
 
 namespace matriculaUniversitaria.GUI
 {
+
     public partial class LobbyAdmin : Form
     {
         public LobbyAdmin()
@@ -37,6 +38,11 @@ namespace matriculaUniversitaria.GUI
         private void consultarToolStripMenuItem2_Click(object sender, EventArgs e)
         {
             
+        }
+
+        private void LobbyAdmin_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

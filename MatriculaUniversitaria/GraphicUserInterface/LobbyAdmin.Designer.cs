@@ -69,7 +69,7 @@
             // crearToolStripMenuItem
             // 
             this.crearToolStripMenuItem.Name = "crearToolStripMenuItem";
-            this.crearToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.crearToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
             this.crearToolStripMenuItem.Text = "Administrar usuario";
             this.crearToolStripMenuItem.Click += new System.EventHandler(this.crearToolStripMenuItem_Click);
             // 
@@ -159,6 +159,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "LobbyAdmin";
             this.Text = "LobbyAdmin";
+            this.Load += new System.EventHandler(this.LobbyAdmin_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
