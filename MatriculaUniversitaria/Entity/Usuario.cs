@@ -9,8 +9,11 @@ using System.Threading.Tasks;
 
 namespace matriculaUniversitaria
 {
-    class Usuario
+
+    public class Usuario
     {
+        private string nombre;
+        private string apellidos;
         private int id_usuario;
         private string codigo;
         private int id_persona;
@@ -26,8 +29,10 @@ namespace matriculaUniversitaria
         }
 
 
-        public Usuario(int pid_user, string pcod, int pid_person, string ppass, DateTime pfechaExp,  string tipo, string estado)
+        public Usuario(string pnombre, string papellidos,int pid_user, string pcod, int pid_person, string ppass, DateTime pfechaExp,  string tipo, string estado)
         {
+            nombre = pnombre;
+            apellidos = papellidos;
             id_usuario = pid_user;
             codigo = pcod;
             id_persona = pid_person;
@@ -36,6 +41,16 @@ namespace matriculaUniversitaria
             estado = estado;
             _tipo = tipo;
             _estado = estado;
+        }
+        public string pnombre
+        {
+            get { return nombre; }
+            set { nombre = value; }
+        }
+        public string papellidos
+        {
+            get { return apellidos; }
+            set { apellidos = value; }
         }
         public  int pid_user
         {
@@ -74,10 +89,10 @@ namespace matriculaUniversitaria
             get { return _estado; }
             set { _estado = value; }
         }
-
+        
         public string printUsuario()
         {
-            return this.id_usuario + "," + this.codigo + "," + this.id_persona + "," + this.contrasenna + "," + this.fecha_exp + "," + this.tipo + "," + this.estado;
+            return this.nombre+ "," +this.apellidos+ ","+ this.id_usuario + "," + this.codigo + "," + this.id_persona + "," + this.contrasenna + "," + this.fecha_exp + "," + this.tipo + "," + this.estado;
         }
     }
 }

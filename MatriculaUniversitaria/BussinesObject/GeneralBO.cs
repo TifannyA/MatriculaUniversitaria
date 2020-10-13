@@ -4,11 +4,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 namespace matriculaUniversitaria.BussinesObject
 {
-    class GeneralBO
+     class GeneralBO
     {
+
         private LinkedList<Person> _people;
 
         public LinkedList<Person> people
@@ -106,6 +106,8 @@ namespace matriculaUniversitaria.BussinesObject
             _users.Remove(p);
         }
 
+
+       
 
     }
 }

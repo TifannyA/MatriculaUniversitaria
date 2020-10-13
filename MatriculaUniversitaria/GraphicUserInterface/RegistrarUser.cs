@@ -41,7 +41,8 @@ namespace matriculaUniversitaria
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            if (((txtUsuario.Text.Equals("") && txtCodigo.Text.Equals("")) && (txtPersona.Text.Equals("") && txtPass.Text.Equals("")) &&
+            if (((txtNombre.Text.Equals("")&& txtApellidos.Text.Equals("")&&txtUsuario.Text.Equals("") && 
+                txtCodigo.Text.Equals("")) && (txtPersona.Text.Equals("") && txtPass.Text.Equals("")) &&
                 (cbxEstado.Text.Equals("- Elija una opción -")&& (cbxTipo.Text.Equals("- Elija una opción -")))))
             {
                 MessageBox.Show("Datos incompletos");
@@ -51,7 +52,7 @@ namespace matriculaUniversitaria
                 try
                 {
                     LinkedList<Usuario> users = uda.readUsuario();
-                    Usuario u = new Usuario(int.Parse(txtUsuario.Text), txtCodigo.Text, int.Parse(txtPersona.Text), txtPass.Text,
+                    Usuario u = new Usuario(txtNombre.Text,txtApellidos.Text, int.Parse(txtUsuario.Text), txtCodigo.Text, int.Parse(txtPersona.Text), txtPass.Text,
                                 DateTime.Now, cbxTipo.Text, cbxEstado.Text);
                     users.AddLast(u);
                     uda.writeUser(users);
@@ -75,6 +76,11 @@ namespace matriculaUniversitaria
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }
