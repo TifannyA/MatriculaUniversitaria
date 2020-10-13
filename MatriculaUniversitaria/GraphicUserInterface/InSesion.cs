@@ -25,7 +25,7 @@ namespace matriculaUniversitaria
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (txtPass.Text == dato)
+            if (txtPass.Text == datos)
             {
 
             }
