@@ -25,7 +25,6 @@ namespace matriculaUniversitaria
 
         public Usuario()
         {
-
         }
 
 
@@ -38,7 +37,10 @@ namespace matriculaUniversitaria
             id_persona = pid_person;
             contrasenna = ppass;
             fecha_exp = pfechaExp;
+<<<<<<< HEAD
             estado = pestado;
+=======
+>>>>>>> master
             _tipo = tipo;
             _estado = estado;
         }

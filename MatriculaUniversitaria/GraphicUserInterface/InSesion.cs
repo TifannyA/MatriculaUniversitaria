@@ -25,8 +25,12 @@ namespace matriculaUniversitaria
 
         private void button1_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             
             if (txtidUsuario.Text == "208010868" && txtPass.Text=="123")
+=======
+            if (true)
+>>>>>>> master
             {
                 MessageBox.Show("Bienvenido Administrador");
             }
@@ -42,6 +46,11 @@ namespace matriculaUniversitaria
             //fm.Show();
             this.Close();
             
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

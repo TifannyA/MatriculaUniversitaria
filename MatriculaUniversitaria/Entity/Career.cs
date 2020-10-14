@@ -8,14 +8,29 @@ namespace MatriculaUniversitaria.Entities
 {
     class Career
     {
-        private int _id;
+        private string _id;
         private string _name;
         private int _totalCredit;
         private bool _state;
         private DateTime _startDate;
         private DateTime _endDate;
 
-        public int id
+        public Career() 
+        {
+        
+        }
+
+        public Career(string id, string name, int totalCredit, bool state, DateTime startDate, DateTime endDate)
+        {
+            _id = id;
+            _name = name;
+            _totalCredit = totalCredit;
+            _state = state;
+            _startDate = startDate;
+            _endDate = endDate;
+        }
+
+        public string id
         {
             get { return _id; }
             set { _id = value; }
@@ -50,7 +65,7 @@ namespace MatriculaUniversitaria.Entities
             set { _endDate = value; }
         }
 
-        public string toString()
+        public string printCareer()
         {
             return this._id + "," + this._name + "," + this._totalCredit + "," + this._state + "," + this.startDate + "," + this.endDate;
         }

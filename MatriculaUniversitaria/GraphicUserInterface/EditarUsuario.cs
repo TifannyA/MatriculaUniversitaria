@@ -57,8 +57,6 @@ namespace matriculaUniversitaria.GraphicUserInterface
 
         private void cargarPersona() 
         {
-            
-            
             txtDni.Text = p.dni+"";
             txtNombre.Text = p.name;
             txtApellido.Text = p.last;
