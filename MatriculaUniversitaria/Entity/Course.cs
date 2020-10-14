@@ -18,7 +18,6 @@ namespace MatriculaUniversitaria.Entities
         public Course()
         {
         }
-
         public Course(string id, string name, int credits, string idCareer, int price, int totalCost)
         {
             _id = id;

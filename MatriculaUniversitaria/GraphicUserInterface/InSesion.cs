@@ -25,7 +25,7 @@ namespace matriculaUniversitaria
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (txtPass.Text == dato)
+            if (true)
             {
 
             }
@@ -41,6 +41,11 @@ namespace matriculaUniversitaria
             //fm.Show();
             this.Close();
             
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -40,7 +40,7 @@ namespace matriculaUniversitaria.GUI
             
         }
 
-<<<<<<< HEAD
+
         private void consultarToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ConsultarCarrera cc = new ConsultarCarrera();
@@ -53,10 +53,12 @@ namespace matriculaUniversitaria.GUI
             cc.Show();
         }
 
-        private void cursoToolStripMenuItem_Click(object sender, EventArgs e)
-=======
+        private void cursoToolStripMenuItem_Click(object sender, EventArgs e) 
+        { 
+        
+        }
+
         private void LobbyAdmin_Load(object sender, EventArgs e)
->>>>>>> master
         {
 
         }
