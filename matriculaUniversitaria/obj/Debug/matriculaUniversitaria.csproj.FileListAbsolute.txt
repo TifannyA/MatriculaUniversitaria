@@ -1,43 +1,19 @@
-C:\Users\Usuario\source\repos\TifannyA\repositorio\MatriculaUniversitaria\matriculaUniversitaria\bin\Debug\matriculaUniversitaria.exe.config
-C:\Users\Usuario\source\repos\TifannyA\repositorio\MatriculaUniversitaria\matriculaUniversitaria\bin\Debug\matriculaUniversitaria.exe
-C:\Users\Usuario\source\repos\TifannyA\repositorio\MatriculaUniversitaria\matriculaUniversitaria\bin\Debug\matriculaUniversitaria.pdb
-C:\Users\Usuario\source\repos\TifannyA\repositorio\MatriculaUniversitaria\matriculaUniversitaria\obj\Debug\matriculaUniversitaria.csprojAssemblyReference.cache
-C:\Users\Usuario\source\repos\TifannyA\repositorio\MatriculaUniversitaria\matriculaUniversitaria\obj\Debug\matriculaUniversitaria.Properties.Resources.resources
-C:\Users\Usuario\source\repos\TifannyA\repositorio\MatriculaUniversitaria\matriculaUniversitaria\obj\Debug\matriculaUniversitaria.csproj.GenerateResource.cache
-C:\Users\Usuario\source\repos\TifannyA\repositorio\MatriculaUniversitaria\matriculaUniversitaria\obj\Debug\matriculaUniversitaria.csproj.CoreCompileInputs.cache
-C:\Users\Usuario\source\repos\TifannyA\repositorio\MatriculaUniversitaria\matriculaUniversitaria\obj\Debug\matriculaUniversitaria.exe
-C:\Users\Usuario\source\repos\TifannyA\repositorio\MatriculaUniversitaria\matriculaUniversitaria\obj\Debug\matriculaUniversitaria.pdb
-C:\Users\Usuario\source\repos\TifannyA\repositorio\MatriculaUniversitaria\matriculaUniversitaria\obj\Debug\matriculaUniversitaria.RegistrarUser.resources
-C:\Users\Usuario\source\repos\TifannyA\repositorio\MatriculaUniversitaria\matriculaUniversitaria\obj\Debug\matriculaUniversitaria.Form1.resources
-C:\Users\Inspiron 3579 G3\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\bin\Debug\matriculaUniversitaria.exe.config
-C:\Users\Inspiron 3579 G3\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\bin\Debug\matriculaUniversitaria.exe
-C:\Users\Inspiron 3579 G3\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\bin\Debug\matriculaUniversitaria.pdb
-C:\Users\Inspiron 3579 G3\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.csprojAssemblyReference.cache
-C:\Users\Inspiron 3579 G3\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.Form1.resources
-C:\Users\Inspiron 3579 G3\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.Properties.Resources.resources
-C:\Users\Inspiron 3579 G3\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.RegistrarUser.resources
-C:\Users\Inspiron 3579 G3\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.csproj.GenerateResource.cache
-C:\Users\Inspiron 3579 G3\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.csproj.CoreCompileInputs.cache
-C:\Users\Inspiron 3579 G3\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.exe
-C:\Users\Inspiron 3579 G3\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.pdb
-C:\Users\Usuario\source\repos\TifannyA\repositorio\Proyecto1\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.csprojAssemblyReference.cache
-C:\Users\Usuario\source\repos\TifannyA\repositorio\Proyecto1\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.Form1.resources
-C:\Users\Usuario\source\repos\TifannyA\repositorio\Proyecto1\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.Properties.Resources.resources
-C:\Users\Usuario\source\repos\TifannyA\repositorio\Proyecto1\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.RegistrarUser.resources
-C:\Users\Usuario\source\repos\TifannyA\repositorio\Proyecto1\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.csproj.GenerateResource.cache
-C:\Users\Usuario\source\repos\TifannyA\repositorio\Proyecto1\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.csproj.CoreCompileInputs.cache
-C:\Users\Usuario\source\repos\TifannyA\repositorio\Proyecto1\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.exe
-C:\Users\Usuario\source\repos\TifannyA\repositorio\Proyecto1\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.pdb
-C:\Users\Usuario\source\repos\TifannyA\repositorio\Proyecto1\MatriculaUniversitaria\bin\Debug\matriculaUniversitaria.exe.config
-C:\Users\Usuario\source\repos\TifannyA\repositorio\Proyecto1\MatriculaUniversitaria\bin\Debug\matriculaUniversitaria.exe
-C:\Users\Usuario\source\repos\TifannyA\repositorio\Proyecto1\MatriculaUniversitaria\bin\Debug\matriculaUniversitaria.pdb
-C:\Users\Inspiron 3579 G3\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GUI.LobbyAdmin.resources
-C:\Users\Inspiron 3579 G3\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GUI.AgregarUsuario.resources
-C:\Users\Usuario\source\repos\TifannyA\repositorio\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GUI.AgregarUsuario.resources
-C:\Users\Usuario\source\repos\TifannyA\repositorio\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GUI.LobbyAdmin.resources
-C:\Users\Inspiron 3579 G3\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.ConsultarUsuario.resources
-C:\Users\Inspiron 3579 G3\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.EditarUsuario.resources
-C:\Users\Usuario\source\repos\TifannyA\repositorio\Proyecto1\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GUI.AgregarUsuario.resources
-C:\Users\Usuario\source\repos\TifannyA\repositorio\Proyecto1\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.ConsultarUsuario.resources
-C:\Users\Usuario\source\repos\TifannyA\repositorio\Proyecto1\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.EditarUsuario.resources
-C:\Users\Usuario\source\repos\TifannyA\repositorio\Proyecto1\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GUI.LobbyAdmin.resources
+C:\Users\Inspiron 3579 G3\source\repos\MatriculaUniversitaria\MatriculaUniversitaria\bin\Debug\matriculaUniversitaria.exe.config
+C:\Users\Inspiron 3579 G3\source\repos\MatriculaUniversitaria\MatriculaUniversitaria\bin\Debug\matriculaUniversitaria.exe
+C:\Users\Inspiron 3579 G3\source\repos\MatriculaUniversitaria\MatriculaUniversitaria\bin\Debug\matriculaUniversitaria.pdb
+C:\Users\Inspiron 3579 G3\source\repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.AgregarCarrera.resources
+C:\Users\Inspiron 3579 G3\source\repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.AgregarCurso.resources
+C:\Users\Inspiron 3579 G3\source\repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GUI.AgregarUsuario.resources
+C:\Users\Inspiron 3579 G3\source\repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.ConsultarCarrera.resources
+C:\Users\Inspiron 3579 G3\source\repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.ConsultarCurso.resources
+C:\Users\Inspiron 3579 G3\source\repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.ConsultarUsuario.resources
+C:\Users\Inspiron 3579 G3\source\repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.EditarCarrera.resources
+C:\Users\Inspiron 3579 G3\source\repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.EditarUsuario.resources
+C:\Users\Inspiron 3579 G3\source\repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.Form1.resources
+C:\Users\Inspiron 3579 G3\source\repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GUI.LobbyAdmin.resources
+C:\Users\Inspiron 3579 G3\source\repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.Properties.Resources.resources
+C:\Users\Inspiron 3579 G3\source\repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.RegistrarUser.resources
+C:\Users\Inspiron 3579 G3\source\repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.csproj.GenerateResource.cache
+C:\Users\Inspiron 3579 G3\source\repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.csproj.CoreCompileInputs.cache
+C:\Users\Inspiron 3579 G3\source\repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.exe
+C:\Users\Inspiron 3579 G3\source\repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.pdb

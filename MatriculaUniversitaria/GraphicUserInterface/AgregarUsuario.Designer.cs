@@ -106,6 +106,7 @@
             this.txtApellido.Name = "txtApellido";
             this.txtApellido.Size = new System.Drawing.Size(200, 20);
             this.txtApellido.TabIndex = 4;
+            this.txtApellido.TextChanged += new System.EventHandler(this.txtApellido_TextChanged);
             // 
             // label4
             // 
@@ -142,6 +143,7 @@
             this.timerBornDate.Name = "timerBornDate";
             this.timerBornDate.Size = new System.Drawing.Size(200, 20);
             this.timerBornDate.TabIndex = 10;
+            this.timerBornDate.ValueChanged += new System.EventHandler(this.timerBornDate_ValueChanged);
             // 
             // cmbAcademylvl
             // 

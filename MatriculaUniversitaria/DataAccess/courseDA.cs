@@ -47,13 +47,14 @@ namespace matriculaUniversitaria.DataAccess
                 {
                     string[] dats = line.Split(',');
                     Course p = new Course();
-                    p.id = int.Parse(dats[0]);
+                    p.id = dats[0];
                     p.name = dats[1];
                     p.credits = int.Parse(dats[2]);
-                    p.idCareer = int.Parse(dats[3]);
+                    p.idCareer = dats[3];
                     p.price = int.Parse(dats[4]);
                     p.totalCost = int.Parse(dats[5]);
                     Courses.AddLast(p);
+                    line = sr.ReadLine();
                 }
                 //close the file
                 sr.Close();

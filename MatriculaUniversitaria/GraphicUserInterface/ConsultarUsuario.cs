@@ -26,7 +26,6 @@ namespace matriculaUniversitaria.GraphicUserInterface
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
             Lista.Items.Clear();
             foreach (Person p in people)
             {

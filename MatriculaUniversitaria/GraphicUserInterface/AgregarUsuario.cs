@@ -21,7 +21,6 @@ namespace matriculaUniversitaria.GUI
         userDA uda = new userDA();
         public AgregarUsuario()
         {
-            
             InitializeComponent();
             cmbSexo.Items.Add("Masculino");
             cmbSexo.Items.Add("Femenino");
@@ -113,6 +112,16 @@ namespace matriculaUniversitaria.GUI
         }
 
         private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void timerBornDate_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtApellido_TextChanged(object sender, EventArgs e)
         {
 
         }

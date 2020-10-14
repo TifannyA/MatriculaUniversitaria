@@ -5,6 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace matriculaUniversitaria.DataAccess
 {
@@ -17,7 +18,7 @@ namespace matriculaUniversitaria.DataAccess
             {
                 foreach (Career p in careers)
                 {
-                    string dats = p.toString();
+                    string dats = p.printCareer();
                     sw.WriteLine(dats);
                     sw.Close();
                 }
@@ -38,7 +39,6 @@ namespace matriculaUniversitaria.DataAccess
         {
             LinkedList<Career> careers = new LinkedList<Career>();
             StreamReader sr = new StreamReader(@"Career.txt");
-
             try
             {
                 String line = null;
@@ -46,16 +46,10 @@ namespace matriculaUniversitaria.DataAccess
                 while (line != null)
                 {
                     string[] dats = line.Split(',');
-                    Career p = new Career();
-                    p.id = int.Parse(dats[0]);
-                    p.name = dats[1];
-                    p.totalCredit = int.Parse(dats[2]);
-                    p.state = bool.Parse(dats[3]);
-                    p.startDate = DateTime.Parse(dats[4]);
-                    p.endDate = DateTime.Parse(dats[5]);
+                    Career p = new Career(dats[0], dats[1],int.Parse(dats[2]),bool.Parse(dats[3]),DateTime.Parse(dats[4]),DateTime.Parse(dats[5]));
                     careers.AddLast(p);
+                    line = sr.ReadLine();
                 }
-                //close the file
                 sr.Close();
                 Console.ReadLine();
             }
