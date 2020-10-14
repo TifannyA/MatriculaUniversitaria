@@ -114,6 +114,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "LobbyAdmin";
             this.Text = "LobbyAdmin";
+            this.Load += new System.EventHandler(this.LobbyAdmin_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
