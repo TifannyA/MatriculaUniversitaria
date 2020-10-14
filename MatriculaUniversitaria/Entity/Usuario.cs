@@ -28,7 +28,7 @@ namespace matriculaUniversitaria
         }
 
 
-        public Usuario(string pnombre, string papellidos,int pid_user, string pcod, int pid_person, string ppass, DateTime pfechaExp,  string tipo, string estado)
+        public Usuario(string pnombre, string papellidos,int pid_user, string pcod, int pid_person, string ppass, DateTime pfechaExp,  string tipo, string pestado)
         {
             nombre = pnombre;
             apellidos = papellidos;
@@ -37,6 +37,10 @@ namespace matriculaUniversitaria
             id_persona = pid_person;
             contrasenna = ppass;
             fecha_exp = pfechaExp;
+<<<<<<< HEAD
+            estado = pestado;
+=======
+>>>>>>> master
             _tipo = tipo;
             _estado = estado;
         }

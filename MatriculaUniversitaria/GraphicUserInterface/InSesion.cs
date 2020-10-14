@@ -14,20 +14,25 @@ namespace matriculaUniversitaria
 {
     public partial class Form1 : Form
     {
-        
+
         public Form1()
         {
             InitializeComponent();
         }
 
         string datos = Settings.Default.pass;
-
+        
 
         private void button1_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
+            
+            if (txtidUsuario.Text == "208010868" && txtPass.Text=="123")
+=======
             if (true)
+>>>>>>> master
             {
-
+                MessageBox.Show("Bienvenido Administrador");
             }
             else
             {
