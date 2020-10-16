@@ -44,12 +44,10 @@
             this.txtCountry = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.txtState = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.lblUsuario = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.txtpass = new System.Windows.Forms.TextBox();
             this.btnAceptar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
+            this.label9 = new System.Windows.Forms.Label();
+            this.cbxTipo = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // txtDni
@@ -200,47 +198,6 @@
             this.txtState.Size = new System.Drawing.Size(200, 20);
             this.txtState.TabIndex = 15;
             // 
-            // label9
-            // 
-            this.label9.AccessibleName = "lblUsuario";
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(401, 44);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(43, 13);
-            this.label9.TabIndex = 18;
-            this.label9.Text = "Usuario";
-            this.label9.Click += new System.EventHandler(this.label9_Click);
-            // 
-            // lblUsuario
-            // 
-            this.lblUsuario.AccessibleName = "lblUsuario";
-            this.lblUsuario.AutoSize = true;
-            this.lblUsuario.Location = new System.Drawing.Point(495, 48);
-            this.lblUsuario.Name = "lblUsuario";
-            this.lblUsuario.Size = new System.Drawing.Size(0, 13);
-            this.lblUsuario.TabIndex = 19;
-            this.lblUsuario.Click += new System.EventHandler(this.label10_Click);
-            // 
-            // label10
-            // 
-            this.label10.AccessibleName = "lblUsuario";
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(401, 84);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(66, 13);
-            this.label10.TabIndex = 20;
-            this.label10.Text = "Constraseña";
-            this.label10.Click += new System.EventHandler(this.label10_Click_1);
-            // 
-            // txtpass
-            // 
-            this.txtpass.AccessibleName = "txtPass";
-            this.txtpass.Location = new System.Drawing.Point(498, 81);
-            this.txtpass.Name = "txtpass";
-            this.txtpass.PasswordChar = '*';
-            this.txtpass.Size = new System.Drawing.Size(200, 20);
-            this.txtpass.TabIndex = 21;
-            // 
             // btnAceptar
             // 
             this.btnAceptar.Location = new System.Drawing.Point(404, 338);
@@ -261,17 +218,37 @@
             this.btnCancelar.UseVisualStyleBackColor = true;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(372, 44);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(80, 13);
+            this.label9.TabIndex = 25;
+            this.label9.Text = "Tipo de usuario";
+            // 
+            // cbxTipo
+            // 
+            this.cbxTipo.FormattingEnabled = true;
+            this.cbxTipo.Items.AddRange(new object[] {
+            "Administrador",
+            "Profesor",
+            "Estudiante"});
+            this.cbxTipo.Location = new System.Drawing.Point(458, 41);
+            this.cbxTipo.Name = "cbxTipo";
+            this.cbxTipo.Size = new System.Drawing.Size(200, 21);
+            this.cbxTipo.TabIndex = 26;
+            this.cbxTipo.SelectedIndexChanged += new System.EventHandler(this.cbxTipo_SelectedIndexChanged);
+            // 
             // AgregarUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(743, 393);
+            this.Controls.Add(this.cbxTipo);
+            this.Controls.Add(this.label9);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnAceptar);
-            this.Controls.Add(this.txtpass);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.lblUsuario);
-            this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.txtState);
             this.Controls.Add(this.label7);
@@ -314,11 +291,9 @@
         private System.Windows.Forms.TextBox txtCountry;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox txtState;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label lblUsuario;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox txtpass;
         private System.Windows.Forms.Button btnAceptar;
         private System.Windows.Forms.Button btnCancelar;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.ComboBox cbxTipo;
     }
 }

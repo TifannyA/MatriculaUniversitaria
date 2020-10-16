@@ -48,7 +48,7 @@ namespace matriculaUniversitaria.DataAccess
                 {
                     string[] dats = line.Split(',');
                     Person p = new Person(int.Parse(dats[1]), dats[2], dats[3], dats[4],
-                               DateTime.Parse(dats[5]), DateTime.Parse(dats[6]), dats[7], dats[8], dats[9], dats[10]);
+                               DateTime.Parse(dats[5]), DateTime.Parse(dats[6]), dats[7], dats[8], dats[9], dats[10],dats[11]);
                     people.AddLast(p);
                     line = sr.ReadLine();
                 }

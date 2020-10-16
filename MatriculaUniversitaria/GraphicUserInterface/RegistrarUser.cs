@@ -20,6 +20,9 @@ namespace matriculaUniversitaria
         GeneralBO lbo = new GeneralBO();
         personDA pda = new personDA();
         userDA uda = new userDA();
+        LinkedList<Usuario> users = new LinkedList<Usuario>();
+
+
         public RegistrarUser()
         {
             InitializeComponent();
@@ -27,7 +30,6 @@ namespace matriculaUniversitaria
 
         private void RegistrarUser_Load(object sender, EventArgs e)
         {
-
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -41,9 +43,7 @@ namespace matriculaUniversitaria
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            if (((txtNombre.Text.Equals("")&& txtApellidos.Text.Equals("")&&txtUsuario.Text.Equals("") && 
-                txtCodigo.Text.Equals("")) && (txtPersona.Text.Equals("") && txtPass.Text.Equals("")) &&
-                (cbxEstado.Text.Equals("- Elija una opción -")&& (cbxTipo.Text.Equals("- Elija una opción -")))))
+            if (txtCodigo.Text.Equals("") && txtPass.Text.Equals(""))
             {
                 MessageBox.Show("Datos incompletos");
             }
@@ -51,13 +51,17 @@ namespace matriculaUniversitaria
             {
                 try
                 {
-                    LinkedList<Usuario> users = uda.readUsuario();
-                    Usuario u = new Usuario(txtNombre.Text,txtApellidos.Text, int.Parse(txtUsuario.Text), txtCodigo.Text, int.Parse(txtPersona.Text), txtPass.Text,
-                                DateTime.Now, cbxTipo.Text, cbxEstado.Text);
-                    users.AddLast(u);
-                    uda.writeUser(users);
-                    MessageBox.Show("Terminó");
-
+                    foreach (var person in pda.readPerson())
+                    {
+                        if (person.dni == int.Parse(txtCodigo.Text) && !(txtPass.Text.Equals(""))&&!(txtPass.Text.Equals("")))
+                        {
+                            Usuario u = new Usuario(txtCodigo.Text, txtPass.Text);
+                            users.AddLast(u);
+                            uda.writeUser(users);
+                            MessageBox.Show("Registro exitoso");
+                        }
+                    }
+                    
                 }
                 catch (Exception ex)
                 {
@@ -80,6 +84,26 @@ namespace matriculaUniversitaria
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtCodigo_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtPass_TextChanged(object sender, EventArgs e)
         {
 
         }

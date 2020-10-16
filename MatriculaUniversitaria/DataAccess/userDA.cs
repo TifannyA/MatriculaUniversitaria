@@ -46,17 +46,10 @@ namespace matriculaUniversitaria.DataAccess
                 {
                     string[] dats = line.Split(',');
                     Usuario u = new Usuario();
-                    u.pnombre = dats[0];
-                    u.papellidos = dats[1];
-                    u.pid_user = int.Parse(dats[2]);
-                    u.pcod = dats[3];
-                    u.pid_person = int.Parse(dats[4]);
-                    u.ppass = dats[5];
-                    u.pfechaExp = DateTime.Parse(dats[6]);
-                    u.estado = dats[7];
+                    u.pcod = dats[0];
+                    u.ppass = dats[1];
                     users.AddLast(u);
                     line = sr.ReadLine();
-
                 }
                 sr.Close();
             }

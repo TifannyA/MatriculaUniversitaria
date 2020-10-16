@@ -39,7 +39,7 @@ namespace matriculaUniversitaria.GraphicUserInterface
             try
             {
                 Person np = new Person(int.Parse(txtDni.Text), txtNombre.Text, txtApellido.Text, cmbSexo.Text,
-                       timerBornDate.Value, DateTime.Now, cmbAcademylvl.Text, "Tiffany", txtCountry.Text, txtState.Text);
+                       timerBornDate.Value, DateTime.Now, cmbAcademylvl.Text, "Tiffany", txtCountry.Text, txtState.Text,cbxTipo.Text);
                 people.Find(p).Value = np;
                 pda.writePerson(people);
             }
@@ -81,7 +81,20 @@ namespace matriculaUniversitaria.GraphicUserInterface
             {
                 cmbAcademylvl.SelectedIndex = 2;
             }
-            timerBornDate.Value = p.bonrDate; 
+            timerBornDate.Value = p.bonrDate;
+            if (p.type.Equals("Administrador"))
+            {
+                cbxTipo.SelectedIndex = 0;
+            }
+            else if (p.type.Equals("Profesor"))
+            {
+                cbxTipo.SelectedIndex = 1;
+            }
+            else
+            {
+                cbxTipo.SelectedIndex = 2;
+            }
+
         }
 
         private void txtDni_TextChanged(object sender, EventArgs e)

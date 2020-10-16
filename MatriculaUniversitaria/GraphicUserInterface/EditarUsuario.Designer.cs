@@ -46,6 +46,8 @@
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.txtDni = new System.Windows.Forms.TextBox();
+            this.cbxTipo = new System.Windows.Forms.ComboBox();
+            this.label9 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnCancelar
@@ -208,11 +210,34 @@
             this.txtDni.TabIndex = 24;
             this.txtDni.TextChanged += new System.EventHandler(this.txtDni_TextChanged);
             // 
+            // cbxTipo
+            // 
+            this.cbxTipo.FormattingEnabled = true;
+            this.cbxTipo.Items.AddRange(new object[] {
+            "Administrador",
+            "Profesor",
+            "Estudiante"});
+            this.cbxTipo.Location = new System.Drawing.Point(472, 23);
+            this.cbxTipo.Name = "cbxTipo";
+            this.cbxTipo.Size = new System.Drawing.Size(200, 21);
+            this.cbxTipo.TabIndex = 43;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(386, 26);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(80, 13);
+            this.label9.TabIndex = 42;
+            this.label9.Text = "Tipo de usuario";
+            // 
             // EditarUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(761, 374);
+            this.Controls.Add(this.cbxTipo);
+            this.Controls.Add(this.label9);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnAceptar);
             this.Controls.Add(this.label8);
@@ -259,5 +284,7 @@
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtDni;
+        private System.Windows.Forms.ComboBox cbxTipo;
+        private System.Windows.Forms.Label label9;
     }
 }

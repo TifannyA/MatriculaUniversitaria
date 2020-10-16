@@ -78,7 +78,7 @@ namespace matriculaUniversitaria.GUI
         private void btnAceptar_Click(object sender, EventArgs e)
         {
             if (((txtDni.Text.Equals("") && txtNombre.Text.Equals("")) && (txtApellido.Text.Equals("") && txtCountry.Text.Equals("")) &&
-                (txtState.Text.Equals("") && txtpass.Text.Equals("")) && (cmbSexo.Text.Equals("- Elija una opción -"))))
+                (txtState.Text.Equals("") && (cmbSexo.Text.Equals("- Elija una opción -")))))
             {
                 MessageBox.Show("Datos incompletos");
             }
@@ -87,7 +87,7 @@ namespace matriculaUniversitaria.GUI
                 {
                     LinkedList<Person> people = pda.readPerson();
                     Person np = new Person(int.Parse(txtDni.Text),txtNombre.Text,txtApellido.Text,cmbSexo.Text,
-                                timerBornDate.Value,DateTime.Now,cmbAcademylvl.Text,"Tiffany",txtCountry.Text,txtState.Text);
+                                timerBornDate.Value,DateTime.Now,cmbAcademylvl.Text,"Tiffany",txtCountry.Text,txtState.Text,cbxTipo.Text);
                     people.AddLast(np);
                     pda.writePerson(people);
 
@@ -122,6 +122,11 @@ namespace matriculaUniversitaria.GUI
         }
 
         private void txtApellido_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cbxTipo_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
