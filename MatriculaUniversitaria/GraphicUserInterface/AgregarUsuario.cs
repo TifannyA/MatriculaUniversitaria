@@ -86,18 +86,16 @@ namespace matriculaUniversitaria.GUI
                 try
                 {
                     LinkedList<Person> people = pda.readPerson();
-                    Person np = new Person(int.Parse(txtDni.Text),txtNombre.Text,txtApellido.Text,cmbSexo.Text,
-                                timerBornDate.Value,DateTime.Now,cmbAcademylvl.Text,"Tiffany",txtCountry.Text,txtState.Text,cbxTipo.Text);
+                    Person np = new Person(int.Parse(txtDni.Text), txtNombre.Text, txtApellido.Text, cmbSexo.Text,
+                                timerBornDate.Value, DateTime.Now, cmbAcademylvl.Text, "Tiffany", txtCountry.Text, txtState.Text, cbxTipo.Text);
                     people.AddLast(np);
                     pda.writePerson(people);
 
                 }
                 catch (Exception ex)
                 {
-
                     MessageBox.Show(ex.Message + " - " + ex.StackTrace);
                 }
-                
             }
         }
 

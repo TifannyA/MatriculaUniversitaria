@@ -17,7 +17,7 @@ namespace matriculaUniversitaria.DataAccess
             {
                 foreach (Course p in Courses)
                 {
-                    string dats = p.toString();
+                    string dats = p.printCourse();
                     sw.WriteLine(dats);
                     sw.Close();
                 }

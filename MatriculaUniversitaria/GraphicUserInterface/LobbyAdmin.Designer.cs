@@ -36,6 +36,8 @@
             this.cursoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.agregarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.profesorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.administrarProfesorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -45,6 +47,7 @@
             this.toolStripMenuItem1,
             this.carreraToolStripMenuItem,
             this.cursoToolStripMenuItem,
+            this.profesorToolStripMenuItem,
             this.salirToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
@@ -105,6 +108,21 @@
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
+            // profesorToolStripMenuItem
+            // 
+            this.profesorToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.administrarProfesorToolStripMenuItem});
+            this.profesorToolStripMenuItem.Name = "profesorToolStripMenuItem";
+            this.profesorToolStripMenuItem.Size = new System.Drawing.Size(63, 20);
+            this.profesorToolStripMenuItem.Text = "Profesor";
+            // 
+            // administrarProfesorToolStripMenuItem
+            // 
+            this.administrarProfesorToolStripMenuItem.Name = "administrarProfesorToolStripMenuItem";
+            this.administrarProfesorToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.administrarProfesorToolStripMenuItem.Text = "Administrar profesor";
+            this.administrarProfesorToolStripMenuItem.Click += new System.EventHandler(this.administrarProfesorToolStripMenuItem_Click);
+            // 
             // LobbyAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -132,5 +150,7 @@
         private System.Windows.Forms.ToolStripMenuItem agregarToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem crearToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem profesorToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem administrarProfesorToolStripMenuItem;
     }
 }
