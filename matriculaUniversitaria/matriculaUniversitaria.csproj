@@ -84,6 +84,12 @@
     <Compile Include="GraphicUserInterface\ConsultarCurso.Designer.cs">
       <DependentUpon>ConsultarCurso.cs</DependentUpon>
     </Compile>
+    <Compile Include="GraphicUserInterface\ConsultarProfesorCurso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GraphicUserInterface\ConsultarProfesorCurso.Designer.cs">
+      <DependentUpon>ConsultarProfesorCurso.cs</DependentUpon>
+    </Compile>
     <Compile Include="GraphicUserInterface\ConsultarUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +101,12 @@
     </Compile>
     <Compile Include="GraphicUserInterface\EditarCarrera.Designer.cs">
       <DependentUpon>EditarCarrera.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GraphicUserInterface\EditarCurso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GraphicUserInterface\EditarCurso.Designer.cs">
+      <DependentUpon>EditarCurso.cs</DependentUpon>
     </Compile>
     <Compile Include="GraphicUserInterface\EditarUsuario.cs">
       <SubType>Form</SubType>
@@ -113,6 +125,12 @@
     </Compile>
     <Compile Include="GraphicUserInterface\LobbyAdmin.Designer.cs">
       <DependentUpon>LobbyAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GraphicUserInterface\LobbyProfesor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GraphicUserInterface\LobbyProfesor.Designer.cs">
+      <DependentUpon>LobbyProfesor.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -143,6 +161,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GraphicUserInterface\EditarCarrera.resx">
       <DependentUpon>EditarCarrera.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GraphicUserInterface\EditarCurso.resx">
+      <DependentUpon>EditarCurso.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GraphicUserInterface\EditarUsuario.resx">
       <DependentUpon>EditarUsuario.cs</DependentUpon>
