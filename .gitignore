@@ -340,5 +340,4 @@ ASALocalRun/
 healthchecksdb
 
 #Omisión de las carpetas
-.vs/
 obj/
