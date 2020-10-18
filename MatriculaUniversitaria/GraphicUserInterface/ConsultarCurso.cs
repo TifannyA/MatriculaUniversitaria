@@ -88,6 +88,7 @@ namespace matriculaUniversitaria.GraphicUserInterface
 
         private void btnBuscar_Click(object sender, EventArgs e)
         {
+            Lista.Items.Clear();
                 if (cmbCareer.SelectedIndex < 0)
                 {
                     MessageBox.Show("Seleccione una carrera para ver los cursos");

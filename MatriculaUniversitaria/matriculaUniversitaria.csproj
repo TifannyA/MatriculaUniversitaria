@@ -156,6 +156,9 @@
     <EmbeddedResource Include="GraphicUserInterface\ConsultarCurso.resx">
       <DependentUpon>ConsultarCurso.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GraphicUserInterface\ConsultarProfesorCurso.resx">
+      <DependentUpon>ConsultarProfesorCurso.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GraphicUserInterface\ConsultarUsuario.resx">
       <DependentUpon>ConsultarUsuario.cs</DependentUpon>
     </EmbeddedResource>
@@ -173,6 +176,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GraphicUserInterface\LobbyAdmin.resx">
       <DependentUpon>LobbyAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GraphicUserInterface\LobbyProfesor.resx">
+      <DependentUpon>LobbyProfesor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

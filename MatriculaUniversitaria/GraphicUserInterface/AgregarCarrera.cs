@@ -54,6 +54,7 @@ namespace matriculaUniversitaria.GraphicUserInterface
                 Career c = new Career(txtCodigo.Text,txtNombre.Text,int.Parse(txtTotalCreditos.Text),state,timerStart.Value,dateEnd.Value);
                 careers.AddLast(c);
                 cda.writeCareer(careers);
+                MessageBox.Show("Carrera agregada satisfactoriamente");
             }
         }
 

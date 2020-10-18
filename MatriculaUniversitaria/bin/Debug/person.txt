@@ -1,3 +1,4 @@
 0,204900658,Martha,Perez,Femenino,10/1/1976 18:27:00,7/10/2020 18:28:42,Diplomado,Tiffany,Costa Rica,Alajuela,Estudiante
 0,207500069,Juan,Perez,Masculino,10/2/1996 18:56:50,7/10/2020 18:57:48,Diplomado,Tiffany,Costa Rica,Alajuela,Administrador
 0,202240750,Hazel,Ochoa,Femenino,6/5/1991 18:58:42,7/10/2020 18:59:28,Licenciatura,Tiffany,Costa Rica,Alajuela,Profesor
+0,1234,Tiffany,--,Femenino,10/1/2020 18:35:27,17/10/2020 18:36:07,Diplomado,Tiffany,Costa Rica,Alajuela,Administrador
