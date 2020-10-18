@@ -41,6 +41,7 @@ namespace matriculaUniversitaria.GraphicUserInterface
         {
             try
             {
+                careers = cda.readCareer();
                 Lista.Items.Clear();
                 foreach (Career ca in careers)
                 {

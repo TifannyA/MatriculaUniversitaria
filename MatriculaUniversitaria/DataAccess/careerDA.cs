@@ -20,8 +20,8 @@ namespace matriculaUniversitaria.DataAccess
                 {
                     string dats = p.printCareer();
                     sw.WriteLine(dats);
-                    sw.Close();
                 }
+                sw.Close();
 
             }
             catch (Exception e)
