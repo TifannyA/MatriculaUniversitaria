@@ -40,3 +40,9 @@ C:\Users\Usuario\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\
 C:\Users\Usuario\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.csproj.CoreCompileInputs.cache
 C:\Users\Usuario\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.exe
 C:\Users\Usuario\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.pdb
+C:\Users\Usuario\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.LobbyEstudiante.resources
+C:\Users\Usuario\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\bin\Debug\matriculaUniversitaria.exe.config
+C:\Users\Usuario\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\bin\Debug\matriculaUniversitaria.exe
+C:\Users\Usuario\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\bin\Debug\matriculaUniversitaria.pdb
+C:\Users\Usuario\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.RealizarMatricula.resources
+C:\Users\Usuario\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.ConsultarNota.resources

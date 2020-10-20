@@ -104,5 +104,10 @@ namespace matriculaUniversitaria.GraphicUserInterface
                     }
                 }
         }
+
+        private void cmbCareer_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
