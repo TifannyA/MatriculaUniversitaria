@@ -12,9 +12,17 @@ namespace matriculaUniversitaria.GraphicUserInterface
 {
     public partial class LobbyProfesor : Form
     {
-        public LobbyProfesor()
+        int cedula;
+        public LobbyProfesor(int cedula)
         {
+            this.cedula = cedula;
             InitializeComponent();
+        }
+
+        private void cursosAsignadosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ConsultarAsignacion ca = new ConsultarAsignacion(cedula);
+            ca.Show();
         }
     }
 }

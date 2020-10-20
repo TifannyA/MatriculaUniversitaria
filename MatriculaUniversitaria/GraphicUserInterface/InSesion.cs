@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using matriculaUniversitaria.DataAccess;
+using matriculaUniversitaria.GraphicUserInterface;
 using matriculaUniversitaria.GUI;
 using matriculaUniversitaria.Properties;
 using MatriculaUniversitaria.Entities;
@@ -45,12 +46,14 @@ namespace matriculaUniversitaria
                             }
                             else if (p.type.Equals("Profesor"))
                             {
-                                MessageBox.Show("Seccion de profesor en mantenimiento");
+                                LobbyProfesor lp = new LobbyProfesor(int.Parse(txtidUsuario.Text));
+                                lp.Show();
                                 break;
                             }
                             else
                             {
-                                MessageBox.Show("Seccion de alumnos en mantenimiento");
+                                LobbyEstudiante le = new LobbyEstudiante(int.Parse(txtidUsuario.Text));
+                                le.Show();
                                 break;
                             }
                         }

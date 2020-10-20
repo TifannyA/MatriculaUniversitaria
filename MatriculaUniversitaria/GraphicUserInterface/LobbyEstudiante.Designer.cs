@@ -31,6 +31,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.matriculaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultarNotasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.realizarMatriculaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -47,6 +48,8 @@
             // 
             // matriculaToolStripMenuItem
             // 
+            this.matriculaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.realizarMatriculaToolStripMenuItem});
             this.matriculaToolStripMenuItem.Name = "matriculaToolStripMenuItem";
             this.matriculaToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
             this.matriculaToolStripMenuItem.Text = "Matricula";
@@ -58,6 +61,13 @@
             this.consultarNotasToolStripMenuItem.Size = new System.Drawing.Size(102, 20);
             this.consultarNotasToolStripMenuItem.Text = "Consultar notas";
             this.consultarNotasToolStripMenuItem.Click += new System.EventHandler(this.consultarNotasToolStripMenuItem_Click);
+            // 
+            // realizarMatriculaToolStripMenuItem
+            // 
+            this.realizarMatriculaToolStripMenuItem.Name = "realizarMatriculaToolStripMenuItem";
+            this.realizarMatriculaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.realizarMatriculaToolStripMenuItem.Text = "Realizar matricula";
+            this.realizarMatriculaToolStripMenuItem.Click += new System.EventHandler(this.realizarMatriculaToolStripMenuItem_Click);
             // 
             // LobbyEstudiante
             // 
@@ -80,5 +90,6 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem matriculaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem consultarNotasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem realizarMatriculaToolStripMenuItem;
     }
 }

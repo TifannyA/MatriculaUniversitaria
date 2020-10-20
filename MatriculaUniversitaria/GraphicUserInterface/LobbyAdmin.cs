@@ -65,8 +65,8 @@ namespace matriculaUniversitaria.GUI
 
         private void administrarProfesorToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //    ConsultarProfesor cp = new ConsultarProfesor();
-            //    cp.Show();
+            ConsultarProfesor cp = new ConsultarProfesor();
+            cp.Show();
         }
     }
 }

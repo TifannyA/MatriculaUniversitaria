@@ -19,9 +19,6 @@ C:\Users\Inspiron 3579 G3\source\repos\MatriculaUniversitaria\MatriculaUniversit
 C:\Users\Inspiron 3579 G3\source\repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.pdb
 C:\Users\Inspiron 3579 G3\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.csprojAssemblyReference.cache
 C:\Users\Inspiron 3579 G3\source\repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.EditarCurso.resources
-C:\Users\Inspiron 3579 G3\source\repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.LobbyProfesor.resources
-C:\Users\Inspiron 3579 G3\source\repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.AgregarProfeCurso.resources
-C:\Users\Inspiron 3579 G3\source\repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.ConsultarProfesor.resources
 C:\Users\Usuario\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.csprojAssemblyReference.cache
 C:\Users\Usuario\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.AgregarCarrera.resources
 C:\Users\Usuario\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.AgregarCurso.resources
@@ -46,3 +43,10 @@ C:\Users\Usuario\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\bin\
 C:\Users\Usuario\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\bin\Debug\matriculaUniversitaria.pdb
 C:\Users\Usuario\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.RealizarMatricula.resources
 C:\Users\Usuario\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.ConsultarNota.resources
+C:\Users\Inspiron 3579 G3\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.ConsultarNota.resources
+C:\Users\Inspiron 3579 G3\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.LobbyEstudiante.resources
+C:\Users\Inspiron 3579 G3\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.AgregarProfesorCurso.resources
+C:\Users\Inspiron 3579 G3\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.ConsultarProfesor.resources
+C:\Users\Inspiron 3579 G3\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.ConsultarAsignacion.resources
+C:\Users\Inspiron 3579 G3\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.LobbyProfesor.resources
+C:\Users\Inspiron 3579 G3\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.AgregarMatricula.resources

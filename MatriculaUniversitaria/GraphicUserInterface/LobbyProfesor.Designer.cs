@@ -63,6 +63,7 @@
             this.cursosAsignadosToolStripMenuItem.Name = "cursosAsignadosToolStripMenuItem";
             this.cursosAsignadosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.cursosAsignadosToolStripMenuItem.Text = "Cursos asignados";
+            this.cursosAsignadosToolStripMenuItem.Click += new System.EventHandler(this.cursosAsignadosToolStripMenuItem_Click);
             // 
             // estudiantesToolStripMenuItem
             // 
@@ -76,13 +77,13 @@
             // reporteEstudiantesToolStripMenuItem
             // 
             this.reporteEstudiantesToolStripMenuItem.Name = "reporteEstudiantesToolStripMenuItem";
-            this.reporteEstudiantesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.reporteEstudiantesToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
             this.reporteEstudiantesToolStripMenuItem.Text = "Reporte Estudiantes";
             // 
             // notasToolStripMenuItem
             // 
             this.notasToolStripMenuItem.Name = "notasToolStripMenuItem";
-            this.notasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.notasToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
             this.notasToolStripMenuItem.Text = "Notas";
             // 
             // salirToolStripMenuItem

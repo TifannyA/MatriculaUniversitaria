@@ -12,21 +12,28 @@ namespace matriculaUniversitaria.GraphicUserInterface
 {
     public partial class LobbyEstudiante : Form
     {
-        public LobbyEstudiante()
+        int cedula;
+        public LobbyEstudiante(int cedula)
         {
+            this.cedula = cedula;
             InitializeComponent();
         }
 
         private void matriculaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            RealizarMatricula rm = new RealizarMatricula();
-            rm.Show();
+
         }
 
         private void consultarNotasToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ConsultarNota cn = new ConsultarNota();
             cn.Show();
+        }
+
+        private void realizarMatriculaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AgregarMatricula am = new AgregarMatricula(cedula);
+            am.Show();
         }
     }
 }

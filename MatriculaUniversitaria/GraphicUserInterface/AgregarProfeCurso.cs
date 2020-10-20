@@ -12,7 +12,7 @@ using System.Windows.Forms;
 
 namespace matriculaUniversitaria.GraphicUserInterface
 {
-    public partial class AgregarProfeCurso : Form
+    public partial class AgregarProfesorCurso : Form
     {
         personDA pda = new personDA();
         careerDA cda = new careerDA();
@@ -23,12 +23,13 @@ namespace matriculaUniversitaria.GraphicUserInterface
         LinkedList<Course> Courses = new LinkedList<Course>();
         LinkedList<Person> profesores = new LinkedList<Person>();
         LinkedList<Course> CourseCharge = new LinkedList<Course>();
-        public AgregarProfeCurso()
+
+        public AgregarProfesorCurso()
         {
             InitializeComponent();
         }
 
-        private void ConsultarProfesorCurso_Load(object sender, EventArgs e)
+        private void AgregarProfesorCurso_Load(object sender, EventArgs e)
         {
             people = pda.readPerson();
             careers = cda.readCareer();
@@ -38,18 +39,13 @@ namespace matriculaUniversitaria.GraphicUserInterface
                 if (p.type.Equals("Profesor"))
                 {
                     profesores.AddLast(p);
-                    ListaProfesor.Items.Add(p.name+" "+p.last +(" - ")+p.academyLvl);
+                    ListaProfesor.Items.Add(p.name + " " + p.last + (" - ") + p.academyLvl);
                 }
             }
             foreach (var ca in careers)
             {
                 cmbCarrera.Items.Add(ca.name);
             }
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
 
         private void cmbCarrera_SelectedIndexChanged(object sender, EventArgs e)
@@ -64,27 +60,21 @@ namespace matriculaUniversitaria.GraphicUserInterface
             }
         }
 
-        private void ListaProfesor_SelectedIndexChanged(object sender, EventArgs e)
+        private void btnAceptar_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            if (ListaProfesor.SelectedIndex<0)
+            if (ListaProfesor.SelectedIndex < 0)
             {
                 MessageBox.Show("Seleccione un profesor");
             }
             else
             {
                 LinkedList<string> profes = tcda.readTeacherAssign();
-                string asignar = profesores.ElementAt(ListaProfesor.SelectedIndex).dni+","+ profesores.ElementAt(ListaProfesor.SelectedIndex).name+" "
-                    + profesores.ElementAt(ListaProfesor.SelectedIndex).last + ","+careers.ElementAt(cmbCarrera.SelectedIndex).id+","+CourseCharge.ElementAt(ListaCurso.SelectedIndex).id;
+                string asignar = profesores.ElementAt(ListaProfesor.SelectedIndex).dni + "," + profesores.ElementAt(ListaProfesor.SelectedIndex).name + " "
+                    + profesores.ElementAt(ListaProfesor.SelectedIndex).last + "," + careers.ElementAt(cmbCarrera.SelectedIndex).id + "," + CourseCharge.ElementAt(ListaCurso.SelectedIndex).id;
                 profes.AddLast(asignar);
                 tcda.writeTeacherAssign(profes);
+                MessageBox.Show("Asignación exitosa");
             }
-
-            
         }
     }
 }
