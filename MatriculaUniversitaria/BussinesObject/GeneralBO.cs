@@ -42,65 +42,100 @@ namespace matriculaUniversitaria.BussinesObject
             set { _users = value; }
         }
 
+        /*
+         * Método que nos permite agrregar una nueva persona.
+         */
         public void agregarPersona( Person p)
         {
             _people.AddLast(p);
 
         }
 
+        /*
+         * Método que nos permite editar una persona.
+         */
         public void editarPersona(Person p, Person e) 
         {
             _people.Find(e).Value=p;  
         }
 
+        /*
+         * Método que nos permite eliminar una persona.
+         */
         public void eliminarPersona(Person p) 
         {
             _people.Remove(p);
         }
 
+        /*
+         * Método que nos permite agregar una nueva carrera.
+         */
         public void agregarCarrera(Career c)
         {
             _career.AddLast(c);
 
         }
 
+        /*
+         * Método que nos permite editar una carrera.
+         */
         public void editarCarrera(Career p, Career e)
         {
             _career.Find(e).Value = p;
         }
 
+        /*
+         * Método que nos permite eliminar una  carrera.
+         */
         public void eliminarCarrera(Career p)
         {
             _career.Remove(p);
         }
 
+        /*
+         * Método que nos permite agregar un nuevo curso.
+         */
         public void agregarCurso(Course p)
         {
             _Course.AddLast(p);
 
         }
 
+        /*
+         * Método que nos permite editar un curso.
+         */
         public void editarCurso(Course p, Course e)
         {
             _Course.Find(e).Value = p;
         }
 
+        /*
+         * Método que nos permite eliminar un curso.
+         */
         public void eliminarCurso(Course p)
         {
             _Course.Remove(p);
         }
 
+        /*
+         * Método que nos permite agregar un nuevo usuario.
+         */
         public void agregarUsuario(Usuario p)
         {
             _users.AddLast(p);
 
         }
-
+        /*
+         * Método que nos permite editar un usuario.
+         */
         public void editarUsuario(Usuario p, Usuario e)
         {
             _users.Find(e).Value = p;
         }
 
+        /*
+         * Método que nos permite eliminar un usuario.
+         */
         public void eliminarUsuario(Usuario p)
         {
             _users.Remove(p);

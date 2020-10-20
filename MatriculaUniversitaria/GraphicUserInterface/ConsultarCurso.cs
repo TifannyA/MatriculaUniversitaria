@@ -31,6 +31,9 @@ namespace matriculaUniversitaria.GraphicUserInterface
             
         }
 
+        /**
+         * Recorre la lista y carga la carrera
+         */
         private void cargarCarrera() {
             
             

@@ -37,6 +37,10 @@ namespace matriculaUniversitaria.GraphicUserInterface
         {
 
         }
+
+        /**
+         * Método recorrer la lista para cargar la carrera en un listBox
+         */
         private void cargarCarrera()
         {
             try

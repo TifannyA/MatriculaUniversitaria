@@ -55,6 +55,9 @@ namespace matriculaUniversitaria.GraphicUserInterface
 
         }
 
+        /**
+         * Método para cargar las personas con sus atributos
+         */
         private void cargarPersona() 
         {
             txtDni.Text = p.dni+"";
