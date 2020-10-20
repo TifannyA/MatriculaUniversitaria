@@ -32,7 +32,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnAceptar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
-            this.btnNotas = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Lista
@@ -43,6 +42,7 @@
             this.Lista.Name = "Lista";
             this.Lista.Size = new System.Drawing.Size(775, 238);
             this.Lista.TabIndex = 0;
+            this.Lista.SelectedIndexChanged += new System.EventHandler(this.Lista_SelectedIndexChanged);
             // 
             // label1
             // 
@@ -60,8 +60,9 @@
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(75, 23);
             this.btnAceptar.TabIndex = 2;
-            this.btnAceptar.Text = "Aceptar";
+            this.btnAceptar.Text = "Editar Nota";
             this.btnAceptar.UseVisualStyleBackColor = true;
+            this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
             // 
             // btnCancelar
             // 
@@ -71,29 +72,20 @@
             this.btnCancelar.TabIndex = 3;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
-            // 
-            // btnNotas
-            // 
-            this.btnNotas.Location = new System.Drawing.Point(712, 19);
-            this.btnNotas.Name = "btnNotas";
-            this.btnNotas.Size = new System.Drawing.Size(75, 23);
-            this.btnNotas.TabIndex = 4;
-            this.btnNotas.Text = "Notas";
-            this.btnNotas.UseVisualStyleBackColor = true;
-            this.btnNotas.Click += new System.EventHandler(this.btnNotas_Click);
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // ConsultarNota
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 338);
-            this.Controls.Add(this.btnNotas);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnAceptar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Lista);
             this.Name = "ConsultarNota";
             this.Text = "ConsultarNota";
+            this.Load += new System.EventHandler(this.ConsultarNota_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -105,6 +97,5 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnAceptar;
         private System.Windows.Forms.Button btnCancelar;
-        private System.Windows.Forms.Button btnNotas;
     }
 }

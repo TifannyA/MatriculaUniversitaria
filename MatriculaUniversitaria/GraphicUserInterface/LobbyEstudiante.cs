@@ -26,14 +26,35 @@ namespace matriculaUniversitaria.GraphicUserInterface
 
         private void consultarNotasToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            ConsultarNota cn = new ConsultarNota();
-            cn.Show();
+
         }
 
         private void realizarMatriculaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             AgregarMatricula am = new AgregarMatricula(cedula);
             am.Show();
+        }
+
+        private void LobbyEstudiante_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void notasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ConsultarNotasEstudiante cne = new ConsultarNotasEstudiante(cedula);
+            cne.Show();
+        }
+
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void evaluacionAProfesorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AgregarReporte ar = new AgregarReporte(cedula);
+            ar.Show();
         }
     }
 }

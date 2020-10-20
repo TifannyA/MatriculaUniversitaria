@@ -21,12 +21,14 @@ namespace matriculaUniversitaria.GraphicUserInterface
         LinkedList<int> teachers = new LinkedList<int>();
         LinkedList<Course> Courses = new LinkedList<Course>();
         LinkedList<Career> careers = new LinkedList<Career>();
+        LinkedList<ReportCourse> reports = new LinkedList<ReportCourse>();
         LinkedList<Enrollment> enrollments = new LinkedList<Enrollment>();
         LinkedList<StudentCalification> califications = new LinkedList<StudentCalification>();
         
         
         careerDA crda = new careerDA();
         EnrollmentDA eda = new EnrollmentDA();
+        ReportCourseDA rcda = new ReportCourseDA();
         TeacherCourseDA tcda = new TeacherCourseDA();
         StudentCalificationDA scda = new StudentCalificationDA();
 
@@ -36,6 +38,7 @@ namespace matriculaUniversitaria.GraphicUserInterface
             InitializeComponent();
             Courses = cda.readCourse();
             careers = crda.readCareer();
+            reports = rcda.readCalification();
             enrollments = eda.readEnrollment();
             califications = scda.readCalification();
 
@@ -90,6 +93,9 @@ namespace matriculaUniversitaria.GraphicUserInterface
             eda.writeEnrollmentn(enrollments);
             StudentCalification sc = new StudentCalification(periodo,Courses.ElementAt(Lista.SelectedIndex).id,cedula,0,"Reprobado",teachers.ElementAt(cmbProfesor.SelectedIndex));
             califications.AddLast(sc);
+            ReportCourse rp = new ReportCourse(0,"",cedula,"Pendiente",DateTime.Now, Courses.ElementAt(Lista.SelectedIndex).id);
+            reports.AddLast(rp);
+            rcda.writeCalification(reports);
             scda.writeCalification(califications);
         }
 

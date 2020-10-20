@@ -32,6 +32,10 @@
             this.matriculaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultarNotasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.realizarMatriculaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.notasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.evalucionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.evaluacionAProfesorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -39,7 +43,9 @@
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.matriculaToolStripMenuItem,
-            this.consultarNotasToolStripMenuItem});
+            this.consultarNotasToolStripMenuItem,
+            this.evalucionesToolStripMenuItem,
+            this.salirToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 24);
@@ -57,6 +63,8 @@
             // 
             // consultarNotasToolStripMenuItem
             // 
+            this.consultarNotasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.notasToolStripMenuItem});
             this.consultarNotasToolStripMenuItem.Name = "consultarNotasToolStripMenuItem";
             this.consultarNotasToolStripMenuItem.Size = new System.Drawing.Size(102, 20);
             this.consultarNotasToolStripMenuItem.Text = "Consultar notas";
@@ -69,6 +77,35 @@
             this.realizarMatriculaToolStripMenuItem.Text = "Realizar matricula";
             this.realizarMatriculaToolStripMenuItem.Click += new System.EventHandler(this.realizarMatriculaToolStripMenuItem_Click);
             // 
+            // notasToolStripMenuItem
+            // 
+            this.notasToolStripMenuItem.Name = "notasToolStripMenuItem";
+            this.notasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.notasToolStripMenuItem.Text = "Notas";
+            this.notasToolStripMenuItem.Click += new System.EventHandler(this.notasToolStripMenuItem_Click);
+            // 
+            // evalucionesToolStripMenuItem
+            // 
+            this.evalucionesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.evaluacionAProfesorToolStripMenuItem});
+            this.evalucionesToolStripMenuItem.Name = "evalucionesToolStripMenuItem";
+            this.evalucionesToolStripMenuItem.Size = new System.Drawing.Size(81, 20);
+            this.evalucionesToolStripMenuItem.Text = "Evaluciones";
+            // 
+            // evaluacionAProfesorToolStripMenuItem
+            // 
+            this.evaluacionAProfesorToolStripMenuItem.Name = "evaluacionAProfesorToolStripMenuItem";
+            this.evaluacionAProfesorToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
+            this.evaluacionAProfesorToolStripMenuItem.Text = "Evaluacion a profesor";
+            this.evaluacionAProfesorToolStripMenuItem.Click += new System.EventHandler(this.evaluacionAProfesorToolStripMenuItem_Click);
+            // 
+            // salirToolStripMenuItem
+            // 
+            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
+            this.salirToolStripMenuItem.Text = "Salir";
+            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
+            // 
             // LobbyEstudiante
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -78,6 +115,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "LobbyEstudiante";
             this.Text = "LobbyEstudiante";
+            this.Load += new System.EventHandler(this.LobbyEstudiante_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -91,5 +129,9 @@
         private System.Windows.Forms.ToolStripMenuItem matriculaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem consultarNotasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem realizarMatriculaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem notasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem evalucionesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem evaluacionAProfesorToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
     }
 }

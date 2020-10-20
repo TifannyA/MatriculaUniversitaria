@@ -33,5 +33,11 @@ namespace matriculaUniversitaria.GraphicUserInterface
             ReporteEstudiantes re = new ReporteEstudiantes(cedula);
             re.Show();
         }
+
+        private void notasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ConsultarNota cn = new ConsultarNota(cedula);
+            cn.Show();
+        }
     }
 }

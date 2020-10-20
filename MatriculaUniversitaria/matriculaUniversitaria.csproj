@@ -51,12 +51,14 @@
     <Compile Include="DataAccess\courseDA.cs" />
     <Compile Include="DataAccess\EnrollmentDA.cs" />
     <Compile Include="DataAccess\personDA.cs" />
+    <Compile Include="DataAccess\ReportCourseDA.cs" />
     <Compile Include="DataAccess\StudentCalificationDA.cs" />
     <Compile Include="DataAccess\TeacherCourseDA.cs" />
     <Compile Include="DataAccess\userDA.cs" />
     <Compile Include="Entity\Career.cs" />
     <Compile Include="Entity\Course.cs" />
     <Compile Include="Entity\Enrollment.cs" />
+    <Compile Include="Entity\ReportCourse.cs" />
     <Compile Include="Entity\StudentCalification.cs" />
     <Compile Include="Entity\Person.cs" />
     <Compile Include="GraphicUserInterface\AgregarCarrera.cs">
@@ -71,11 +73,23 @@
     <Compile Include="GraphicUserInterface\AgregarCurso.Designer.cs">
       <DependentUpon>AgregarCurso.cs</DependentUpon>
     </Compile>
+    <Compile Include="GraphicUserInterface\AgregarEvaluacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GraphicUserInterface\AgregarEvaluacion.Designer.cs">
+      <DependentUpon>AgregarEvaluacion.cs</DependentUpon>
+    </Compile>
     <Compile Include="GraphicUserInterface\AgregarProfeCurso.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GraphicUserInterface\AgregarProfeCurso.Designer.cs">
       <DependentUpon>AgregarProfeCurso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GraphicUserInterface\AgregarReporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GraphicUserInterface\AgregarReporte.Designer.cs">
+      <DependentUpon>AgregarReporte.cs</DependentUpon>
     </Compile>
     <Compile Include="GraphicUserInterface\AgregarUsuario.cs">
       <SubType>Form</SubType>
@@ -107,11 +121,23 @@
     <Compile Include="GraphicUserInterface\ConsultarNota.Designer.cs">
       <DependentUpon>ConsultarNota.cs</DependentUpon>
     </Compile>
+    <Compile Include="GraphicUserInterface\ConsultarNotasEstudiante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GraphicUserInterface\ConsultarNotasEstudiante.Designer.cs">
+      <DependentUpon>ConsultarNotasEstudiante.cs</DependentUpon>
+    </Compile>
     <Compile Include="GraphicUserInterface\ConsultarProfesor.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GraphicUserInterface\ConsultarProfesor.Designer.cs">
       <DependentUpon>ConsultarProfesor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GraphicUserInterface\ConsultarReporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GraphicUserInterface\ConsultarReporte.Designer.cs">
+      <DependentUpon>ConsultarReporte.cs</DependentUpon>
     </Compile>
     <Compile Include="GraphicUserInterface\ConsultarUsuario.cs">
       <SubType>Form</SubType>
@@ -130,6 +156,12 @@
     </Compile>
     <Compile Include="GraphicUserInterface\EditarCurso.Designer.cs">
       <DependentUpon>EditarCurso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GraphicUserInterface\EditarNotas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GraphicUserInterface\EditarNotas.Designer.cs">
+      <DependentUpon>EditarNotas.cs</DependentUpon>
     </Compile>
     <Compile Include="GraphicUserInterface\EditarUsuario.cs">
       <SubType>Form</SubType>
@@ -191,6 +223,9 @@
     <EmbeddedResource Include="GraphicUserInterface\AgregarProfeCurso.resx">
       <DependentUpon>AgregarProfeCurso.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GraphicUserInterface\AgregarReporte.resx">
+      <DependentUpon>AgregarReporte.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GraphicUserInterface\AgregarUsuario.resx">
       <DependentUpon>AgregarUsuario.cs</DependentUpon>
     </EmbeddedResource>
@@ -206,8 +241,14 @@
     <EmbeddedResource Include="GraphicUserInterface\ConsultarNota.resx">
       <DependentUpon>ConsultarNota.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GraphicUserInterface\ConsultarNotasEstudiante.resx">
+      <DependentUpon>ConsultarNotasEstudiante.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GraphicUserInterface\ConsultarProfesor.resx">
       <DependentUpon>ConsultarProfesor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GraphicUserInterface\ConsultarReporte.resx">
+      <DependentUpon>ConsultarReporte.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GraphicUserInterface\ConsultarUsuario.resx">
       <DependentUpon>ConsultarUsuario.cs</DependentUpon>
@@ -217,6 +258,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GraphicUserInterface\EditarCurso.resx">
       <DependentUpon>EditarCurso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GraphicUserInterface\EditarNotas.resx">
+      <DependentUpon>EditarNotas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GraphicUserInterface\EditarUsuario.resx">
       <DependentUpon>EditarUsuario.cs</DependentUpon>
