@@ -1,4 +1,6 @@
-﻿using System;
+﻿using matriculaUniversitaria.DataAccess;
+using matriculaUniversitaria.Entity;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,6 +18,7 @@ namespace matriculaUniversitaria.GraphicUserInterface
         public LobbyProfesor(int cedula)
         {
             this.cedula = cedula;
+            StudentCalificationDA scda = new StudentCalificationDA();
             InitializeComponent();
         }
 
@@ -23,6 +26,12 @@ namespace matriculaUniversitaria.GraphicUserInterface
         {
             ConsultarAsignacion ca = new ConsultarAsignacion(cedula);
             ca.Show();
+        }
+
+        private void reporteEstudiantesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ReporteEstudiantes re = new ReporteEstudiantes(cedula);
+            re.Show();
         }
     }
 }

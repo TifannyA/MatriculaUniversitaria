@@ -50,3 +50,4 @@ C:\Users\Inspiron 3579 G3\Source\Repos\MatriculaUniversitaria\MatriculaUniversit
 C:\Users\Inspiron 3579 G3\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.ConsultarAsignacion.resources
 C:\Users\Inspiron 3579 G3\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.LobbyProfesor.resources
 C:\Users\Inspiron 3579 G3\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.AgregarMatricula.resources
+C:\Users\Inspiron 3579 G3\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.ReporteEstudiantes.resources

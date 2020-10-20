@@ -37,15 +37,14 @@ namespace matriculaUniversitaria.DataAccess
         {
             LinkedList<StudentCalification> enrollments = new LinkedList<StudentCalification>();
             StreamReader sr = new StreamReader(@"Calification.txt");
-
             try
             {
                 String line = null;
-                line = sr.ReadLine(); 
+                line = sr.ReadLine();
                 while (line != null)
                 {
                     string[] dats = line.Split(',');
-                    StudentCalification en = new StudentCalification(dats[2], dats[1], int.Parse(dats[0]), int.Parse(dats[3]), dats[4],int.Parse(dats[6]));
+                    StudentCalification en = new StudentCalification(dats[2], dats[1], int.Parse(dats[0]), int.Parse(dats[3]), dats[4],int.Parse(dats[5]));
                     enrollments.AddLast(en);
                     line = sr.ReadLine();
                 }

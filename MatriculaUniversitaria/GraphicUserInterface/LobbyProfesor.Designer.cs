@@ -77,8 +77,9 @@
             // reporteEstudiantesToolStripMenuItem
             // 
             this.reporteEstudiantesToolStripMenuItem.Name = "reporteEstudiantesToolStripMenuItem";
-            this.reporteEstudiantesToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
+            this.reporteEstudiantesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.reporteEstudiantesToolStripMenuItem.Text = "Reporte Estudiantes";
+            this.reporteEstudiantesToolStripMenuItem.Click += new System.EventHandler(this.reporteEstudiantesToolStripMenuItem_Click);
             // 
             // notasToolStripMenuItem
             // 

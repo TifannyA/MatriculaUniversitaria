@@ -15,6 +15,7 @@ namespace matriculaUniversitaria.Entity
             _idStudent = idStudent;
             _calification = calification;
             _state = state;
+            _idTeacher = teacher;
         }
         private int _idTeacher;
 
