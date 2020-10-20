@@ -16,5 +16,17 @@ namespace matriculaUniversitaria.GraphicUserInterface
         {
             InitializeComponent();
         }
+
+        private void matriculaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            RealizarMatricula rm = new RealizarMatricula();
+            rm.Show();
+        }
+
+        private void consultarNotasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ConsultarNota cn = new ConsultarNota();
+            cn.Show();
+        }
     }
 }
