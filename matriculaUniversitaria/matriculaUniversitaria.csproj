@@ -85,6 +85,7 @@
     <Compile Include="GraphicUserInterface\ConsultarCurso.Designer.cs">
       <DependentUpon>ConsultarCurso.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="GraphicUserInterface\AgregarProfeCurso.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +97,13 @@
     </Compile>
     <Compile Include="GraphicUserInterface\ConsultarProfesor.Designer.cs">
       <DependentUpon>ConsultarProfesor.cs</DependentUpon>
+=======
+    <Compile Include="GraphicUserInterface\ConsultarNota.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GraphicUserInterface\ConsultarNota.Designer.cs">
+      <DependentUpon>ConsultarNota.cs</DependentUpon>
+>>>>>>> master
     </Compile>
     <Compile Include="GraphicUserInterface\ConsultarUsuario.cs">
       <SubType>Form</SubType>
@@ -133,11 +141,23 @@
     <Compile Include="GraphicUserInterface\LobbyAdmin.Designer.cs">
       <DependentUpon>LobbyAdmin.cs</DependentUpon>
     </Compile>
+    <Compile Include="GraphicUserInterface\LobbyEstudiante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GraphicUserInterface\LobbyEstudiante.Designer.cs">
+      <DependentUpon>LobbyEstudiante.cs</DependentUpon>
+    </Compile>
     <Compile Include="GraphicUserInterface\LobbyProfesor.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GraphicUserInterface\LobbyProfesor.Designer.cs">
       <DependentUpon>LobbyProfesor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GraphicUserInterface\RealizarMatricula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GraphicUserInterface\RealizarMatricula.Designer.cs">
+      <DependentUpon>RealizarMatricula.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -163,11 +183,16 @@
     <EmbeddedResource Include="GraphicUserInterface\ConsultarCurso.resx">
       <DependentUpon>ConsultarCurso.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="GraphicUserInterface\AgregarProfeCurso.resx">
       <DependentUpon>AgregarProfeCurso.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GraphicUserInterface\ConsultarProfesor.resx">
       <DependentUpon>ConsultarProfesor.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="GraphicUserInterface\ConsultarNota.resx">
+      <DependentUpon>ConsultarNota.cs</DependentUpon>
+>>>>>>> master
     </EmbeddedResource>
     <EmbeddedResource Include="GraphicUserInterface\ConsultarUsuario.resx">
       <DependentUpon>ConsultarUsuario.cs</DependentUpon>
@@ -187,8 +212,16 @@
     <EmbeddedResource Include="GraphicUserInterface\LobbyAdmin.resx">
       <DependentUpon>LobbyAdmin.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="GraphicUserInterface\LobbyProfesor.resx">
       <DependentUpon>LobbyProfesor.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="GraphicUserInterface\LobbyEstudiante.resx">
+      <DependentUpon>LobbyEstudiante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GraphicUserInterface\RealizarMatricula.resx">
+      <DependentUpon>RealizarMatricula.cs</DependentUpon>
+>>>>>>> master
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

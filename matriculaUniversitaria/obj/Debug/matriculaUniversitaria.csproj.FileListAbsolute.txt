@@ -22,3 +22,27 @@ C:\Users\Inspiron 3579 G3\source\repos\MatriculaUniversitaria\MatriculaUniversit
 C:\Users\Inspiron 3579 G3\source\repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.LobbyProfesor.resources
 C:\Users\Inspiron 3579 G3\source\repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.AgregarProfeCurso.resources
 C:\Users\Inspiron 3579 G3\source\repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.ConsultarProfesor.resources
+C:\Users\Usuario\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.csprojAssemblyReference.cache
+C:\Users\Usuario\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.AgregarCarrera.resources
+C:\Users\Usuario\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.AgregarCurso.resources
+C:\Users\Usuario\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GUI.AgregarUsuario.resources
+C:\Users\Usuario\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.ConsultarCarrera.resources
+C:\Users\Usuario\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.ConsultarCurso.resources
+C:\Users\Usuario\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.ConsultarUsuario.resources
+C:\Users\Usuario\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.EditarCarrera.resources
+C:\Users\Usuario\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.EditarCurso.resources
+C:\Users\Usuario\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.EditarUsuario.resources
+C:\Users\Usuario\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.Form1.resources
+C:\Users\Usuario\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GUI.LobbyAdmin.resources
+C:\Users\Usuario\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.Properties.Resources.resources
+C:\Users\Usuario\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.RegistrarUser.resources
+C:\Users\Usuario\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.csproj.GenerateResource.cache
+C:\Users\Usuario\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.exe
+C:\Users\Usuario\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.pdb
+C:\Users\Usuario\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.LobbyEstudiante.resources
+C:\Users\Usuario\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\bin\Debug\matriculaUniversitaria.exe.config
+C:\Users\Usuario\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\bin\Debug\matriculaUniversitaria.exe
+C:\Users\Usuario\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\bin\Debug\matriculaUniversitaria.pdb
+C:\Users\Usuario\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.RealizarMatricula.resources
+C:\Users\Usuario\Source\Repos\MatriculaUniversitaria\MatriculaUniversitaria\obj\Debug\matriculaUniversitaria.GraphicUserInterface.ConsultarNota.resources

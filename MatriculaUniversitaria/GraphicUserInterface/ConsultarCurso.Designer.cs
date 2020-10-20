@@ -120,6 +120,7 @@
             this.cmbCareer.Name = "cmbCareer";
             this.cmbCareer.Size = new System.Drawing.Size(416, 21);
             this.cmbCareer.TabIndex = 22;
+            this.cmbCareer.SelectedIndexChanged += new System.EventHandler(this.cmbCareer_SelectedIndexChanged);
             // 
             // ConsultarCurso
             // 

@@ -1,4 +1,5 @@
-﻿using matriculaUniversitaria.GUI;
+﻿using matriculaUniversitaria.GraphicUserInterface;
+using matriculaUniversitaria.GUI;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,7 +19,7 @@ namespace matriculaUniversitaria
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new LobbyEstudiante ());
         }
 
 
